@@ -33,8 +33,11 @@ def parse_args():
     p.add_argument("--data_dir", default="data")
     p.add_argument("--out_dir", default="outputs")
     p.add_argument("--epochs", type=int, default=2)
-    p.add_argument("--batch_size", type=int, default=4)
-    p.add_argument("--grad_accum", type=int, default=4)  # efektif batch = 4 x 4 = 16
+    # Efektif batch = 2 x 8 = 16. Mikro-batch küçük tutuldu: full FT'de T4'ün 15 GB'ı
+    # 4'lük batch'e yetmedi (152k'lık vocab yüzünden logit tensörü tek başına GB'larca).
+    # Adil karşılaştırma için tüm deneyler aynı ayarla koşar.
+    p.add_argument("--batch_size", type=int, default=2)
+    p.add_argument("--grad_accum", type=int, default=8)
     p.add_argument("--warmup_ratio", type=float, default=0.03)
     p.add_argument("--eval_every", type=int, default=50)  # optimizer adımı cinsinden
     p.add_argument("--seed", type=int, default=42)
