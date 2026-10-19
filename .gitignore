@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model ağırlıkları ve büyük çıktılar GitHub'a değil Hugging Face'e gider
+# data/ her zaman src/prepare_data.py ile yeniden üretilir
+data/
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+wandb/
