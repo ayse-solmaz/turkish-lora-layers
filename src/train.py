@@ -44,7 +44,19 @@ def parse_args():
     p.add_argument("--limit", type=int, default=None, help="hızlı deneme için örnek sayısı")
     p.add_argument("--max_steps", type=int, default=None)
     p.add_argument("--no_grad_ckpt", action="store_true")
+    p.add_argument("--precision", default="auto", choices=["auto", "bf16", "fp16", "fp32"])
     return p.parse_args()
+
+
+def pick_amp_dtype(device, precision: str):
+    if device.type != "cuda":
+        return None  # CPU'da sadece hızlı deneme yapıyoruz, fp32 yeter
+    if precision == "auto":
+        # Dikkat: torch.cuda.is_bf16_supported() T4'te de True döner, ama T4'te bf16
+        # donanımda yok, yazılımla taklit edilir ve çok yavaştır. Gerçek bf16 desteği
+        # Ampere (compute capability 8.x) ve sonrasında var.
+        precision = "bf16" if torch.cuda.get_device_capability()[0] >= 8 else "fp16"
+    return {"bf16": torch.bfloat16, "fp16": torch.float16, "fp32": None}[precision]
 
 
 def set_seed(seed: int) -> None:
@@ -119,10 +131,7 @@ def main():
     set_seed(args.seed)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    if device.type == "cuda":
-        amp_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
-    else:
-        amp_dtype = None  # CPU'da sadece hızlı deneme yapıyoruz, fp32 yeter
+    amp_dtype = pick_amp_dtype(device, args.precision)
     print(f"Cihaz: {device}, karışık hassasiyet: {amp_dtype}")
 
     tokenizer = AutoTokenizer.from_pretrained(args.model)
@@ -150,7 +159,7 @@ def main():
     scaler = torch.amp.GradScaler(enabled=amp_dtype == torch.float16)
 
     log = {"exp": args.exp, "config": exp, "args": vars(args), "trainable_params": n_trainable,
-           "train_loss": [], "val_loss": []}
+           "amp_dtype": str(amp_dtype), "train_loss": [], "val_loss": []}
     out = Path(args.out_dir) / args.exp
     out.mkdir(parents=True, exist_ok=True)
 
@@ -171,6 +180,8 @@ def main():
             batch = {k: v.to(device) for k, v in batch.items()}
             with torch.autocast(device.type, dtype=amp_dtype, enabled=amp_dtype is not None):
                 loss = model(**batch).loss / args.grad_accum
+            if not torch.isfinite(loss):
+                raise RuntimeError(f"loss NaN/inf oldu (adım {step}); hassasiyet: {amp_dtype}")
             scaler.scale(loss).backward()
             running.append(loss.item() * args.grad_accum)
 

@@ -1,0 +1,316 @@
+== full_ft (seed 42)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Cihaz: cuda, karışık hassasiyet: torch.bfloat16
+Eğitilen parametre: 494,032,768 / 494,032,768 (100.000%)
+adım 0 | val loss 2.8208
+adım 10/822 | train loss 3.0170 | lr 9.17e-06
+adım 20/822 | train loss 2.6733 | lr 1.75e-05
+adım 30/822 | train loss 2.5659 | lr 2.00e-05
+adım 40/822 | train loss 2.5371 | lr 2.00e-05
+adım 50/822 | train loss 2.7196 | lr 1.99e-05
+adım 50 | val loss 2.5139
+adım 60/822 | train loss 2.5188 | lr 1.99e-05
+adım 70/822 | train loss 2.6777 | lr 1.98e-05
+adım 80/822 | train loss 2.7560 | lr 1.98e-05
+adım 90/822 | train loss 2.9988 | lr 1.97e-05
+adım 100/822 | train loss 2.5079 | lr 1.96e-05
+adım 100 | val loss 2.3277
+adım 110/822 | train loss 2.8073 | lr 1.94e-05
+adım 120/822 | train loss 2.7491 | lr 1.93e-05
+adım 130/822 | train loss 2.8314 | lr 1.91e-05
+adım 140/822 | train loss 2.3674 | lr 1.90e-05
+adım 150/822 | train loss 2.5648 | lr 1.88e-05
+adım 150 | val loss 2.2314
+adım 160/822 | train loss 2.7733 | lr 1.86e-05
+adım 170/822 | train loss 2.5489 | lr 1.84e-05
+adım 180/822 | train loss 2.1962 | lr 1.82e-05
+adım 190/822 | train loss 2.1924 | lr 1.79e-05
+adım 200/822 | train loss 2.3748 | lr 1.77e-05
+adım 200 | val loss 2.1486
+adım 210/822 | train loss 2.3031 | lr 1.74e-05
+adım 220/822 | train loss 2.5390 | lr 1.72e-05
+adım 230/822 | train loss 2.6958 | lr 1.69e-05
+adım 240/822 | train loss 2.3351 | lr 1.66e-05
+adım 250/822 | train loss 2.3476 | lr 1.63e-05
+adım 250 | val loss 2.0909
+adım 260/822 | train loss 2.0655 | lr 1.60e-05
+adım 270/822 | train loss 2.4538 | lr 1.57e-05
+adım 280/822 | train loss 2.1404 | lr 1.53e-05
+adım 290/822 | train loss 1.9738 | lr 1.50e-05
+adım 300/822 | train loss 2.4864 | lr 1.47e-05
+adım 300 | val loss 2.0361
+adım 310/822 | train loss 1.9600 | lr 1.43e-05
+adım 320/822 | train loss 2.5415 | lr 1.39e-05
+adım 330/822 | train loss 2.6509 | lr 1.36e-05
+adım 340/822 | train loss 1.8798 | lr 1.32e-05
+adım 350/822 | train loss 2.1148 | lr 1.28e-05
+adım 350 | val loss 1.9792
+adım 360/822 | train loss 2.0177 | lr 1.25e-05
+adım 370/822 | train loss 2.2865 | lr 1.21e-05
+adım 380/822 | train loss 1.9795 | lr 1.17e-05
+adım 390/822 | train loss 2.0050 | lr 1.13e-05
+adım 400/822 | train loss 1.9292 | lr 1.09e-05
+adım 400 | val loss 1.9283
+adım 410/822 | train loss 2.3161 | lr 1.05e-05
+adım 420/822 | train loss 1.8097 | lr 1.01e-05
+adım 430/822 | train loss 1.6461 | lr 9.72e-06
+adım 440/822 | train loss 1.8515 | lr 9.33e-06
+adım 450/822 | train loss 1.7829 | lr 8.94e-06
+adım 450 | val loss 1.9211
+adım 460/822 | train loss 1.5885 | lr 8.55e-06
+adım 470/822 | train loss 1.4144 | lr 8.16e-06
+adım 480/822 | train loss 1.6961 | lr 7.77e-06
+adım 490/822 | train loss 2.0403 | lr 7.39e-06
+adım 500/822 | train loss 1.7541 | lr 7.01e-06
+adım 500 | val loss 1.8922
+adım 510/822 | train loss 1.5885 | lr 6.64e-06
+adım 520/822 | train loss 1.5490 | lr 6.27e-06
+adım 530/822 | train loss 1.7232 | lr 5.91e-06
+adım 540/822 | train loss 1.7120 | lr 5.56e-06
+adım 550/822 | train loss 1.5768 | lr 5.21e-06
+adım 550 | val loss 1.8656
+adım 560/822 | train loss 1.5672 | lr 4.86e-06
+adım 570/822 | train loss 1.5026 | lr 4.53e-06
+adım 580/822 | train loss 1.7222 | lr 4.21e-06
+adım 590/822 | train loss 1.7470 | lr 3.89e-06
+adım 600/822 | train loss 1.2569 | lr 3.58e-06
+adım 600 | val loss 1.8472
+adım 610/822 | train loss 1.5793 | lr 3.29e-06
+adım 620/822 | train loss 1.8107 | lr 3.00e-06
+adım 630/822 | train loss 1.6068 | lr 2.72e-06
+adım 640/822 | train loss 1.6431 | lr 2.46e-06
+adım 650/822 | train loss 1.6688 | lr 2.21e-06
+adım 650 | val loss 1.8319
+adım 660/822 | train loss 1.8925 | lr 1.97e-06
+adım 670/822 | train loss 1.4180 | lr 1.74e-06
+adım 680/822 | train loss 1.5270 | lr 1.52e-06
+adım 690/822 | train loss 1.7912 | lr 1.32e-06
+adım 700/822 | train loss 1.7003 | lr 1.13e-06
+adım 700 | val loss 1.8238
+adım 710/822 | train loss 1.5180 | lr 9.56e-07
+adım 720/822 | train loss 1.8111 | lr 7.95e-07
+adım 730/822 | train loss 1.7563 | lr 6.49e-07
+adım 740/822 | train loss 1.6722 | lr 5.17e-07
+adım 750/822 | train loss 1.8320 | lr 3.99e-07
+adım 750 | val loss 1.8204
+adım 760/822 | train loss 1.6963 | lr 2.96e-07
+adım 770/822 | train loss 1.5561 | lr 2.09e-07
+adım 780/822 | train loss 1.5630 | lr 1.36e-07
+adım 790/822 | train loss 1.7053 | lr 7.92e-08
+adım 800/822 | train loss 1.6957 | lr 3.75e-08
+adım 800 | val loss 1.8191
+adım 810/822 | train loss 1.8446 | lr 1.12e-08
+adım 820/822 | train loss 1.6238 | lr 3.10e-10
+Bitti: 12147.2 sn, son val loss 1.8191
+Kaydedildi: outputs/seed42/full_ft
+== lora_all_r16 (seed 42)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Cihaz: cuda, karışık hassasiyet: torch.bfloat16
+Eğitilen parametre: 8,798,208 / 502,830,976 (1.750%)
+adım 0 | val loss 2.8208
+adım 10/822 | train loss 3.0461 | lr 9.17e-05
+adım 20/822 | train loss 2.6846 | lr 1.75e-04
+adım 30/822 | train loss 2.6063 | lr 2.00e-04
+adım 40/822 | train loss 2.5742 | lr 2.00e-04
+adım 50/822 | train loss 2.8134 | lr 1.99e-04
+adım 50 | val loss 2.6149
+adım 60/822 | train loss 2.6547 | lr 1.99e-04
+adım 70/822 | train loss 2.8377 | lr 1.98e-04
+adım 80/822 | train loss 2.9266 | lr 1.98e-04
+adım 90/822 | train loss 3.2125 | lr 1.97e-04
+adım 100/822 | train loss 2.7520 | lr 1.96e-04
+adım 100 | val loss 2.5184
+adım 110/822 | train loss 2.9536 | lr 1.94e-04
+adım 120/822 | train loss 2.9179 | lr 1.93e-04
+adım 130/822 | train loss 2.9953 | lr 1.91e-04
+adım 140/822 | train loss 2.6335 | lr 1.90e-04
+adım 150/822 | train loss 2.7871 | lr 1.88e-04
+adım 150 | val loss 2.4594
+adım 160/822 | train loss 2.9963 | lr 1.86e-04
+adım 170/822 | train loss 2.8082 | lr 1.84e-04
+adım 180/822 | train loss 2.5232 | lr 1.82e-04
+adım 190/822 | train loss 2.4349 | lr 1.79e-04
+adım 200/822 | train loss 2.6767 | lr 1.77e-04
+adım 200 | val loss 2.4065
+adım 210/822 | train loss 2.5245 | lr 1.74e-04
+adım 220/822 | train loss 2.8734 | lr 1.72e-04
+adım 230/822 | train loss 2.9196 | lr 1.69e-04
+adım 240/822 | train loss 2.5691 | lr 1.66e-04
+adım 250/822 | train loss 2.6299 | lr 1.63e-04
+adım 250 | val loss 2.3637
+adım 260/822 | train loss 2.3740 | lr 1.60e-04
+adım 270/822 | train loss 2.7404 | lr 1.57e-04
+adım 280/822 | train loss 2.5225 | lr 1.53e-04
+adım 290/822 | train loss 2.2574 | lr 1.50e-04
+adım 300/822 | train loss 2.7847 | lr 1.47e-04
+adım 300 | val loss 2.3253
+adım 310/822 | train loss 2.2622 | lr 1.43e-04
+adım 320/822 | train loss 2.8244 | lr 1.39e-04
+adım 330/822 | train loss 2.9489 | lr 1.36e-04
+adım 340/822 | train loss 2.2126 | lr 1.32e-04
+adım 350/822 | train loss 2.4059 | lr 1.28e-04
+adım 350 | val loss 2.2895
+adım 360/822 | train loss 2.2985 | lr 1.25e-04
+adım 370/822 | train loss 2.5987 | lr 1.21e-04
+adım 380/822 | train loss 2.2847 | lr 1.17e-04
+adım 390/822 | train loss 2.3151 | lr 1.13e-04
+adım 400/822 | train loss 2.2365 | lr 1.09e-04
+adım 400 | val loss 2.2597
+adım 410/822 | train loss 2.6541 | lr 1.05e-04
+adım 420/822 | train loss 2.4154 | lr 1.01e-04
+adım 430/822 | train loss 2.2091 | lr 9.72e-05
+adım 440/822 | train loss 2.3727 | lr 9.33e-05
+adım 450/822 | train loss 2.3197 | lr 8.94e-05
+adım 450 | val loss 2.2461
+adım 460/822 | train loss 1.9786 | lr 8.55e-05
+adım 470/822 | train loss 1.9853 | lr 8.16e-05
+adım 480/822 | train loss 2.2116 | lr 7.77e-05
+adım 490/822 | train loss 2.7152 | lr 7.39e-05
+adım 500/822 | train loss 2.3086 | lr 7.01e-05
+adım 500 | val loss 2.2274
+adım 510/822 | train loss 2.2445 | lr 6.64e-05
+adım 520/822 | train loss 2.1363 | lr 6.27e-05
+adım 530/822 | train loss 2.2975 | lr 5.91e-05
+adım 540/822 | train loss 2.2656 | lr 5.56e-05
+adım 550/822 | train loss 2.1419 | lr 5.21e-05
+adım 550 | val loss 2.2117
+adım 560/822 | train loss 2.0483 | lr 4.86e-05
+adım 570/822 | train loss 1.9670 | lr 4.53e-05
+adım 580/822 | train loss 2.2936 | lr 4.21e-05
+adım 590/822 | train loss 2.3581 | lr 3.89e-05
+adım 600/822 | train loss 1.8658 | lr 3.58e-05
+adım 600 | val loss 2.1992
+adım 610/822 | train loss 2.0718 | lr 3.29e-05
+adım 620/822 | train loss 2.4182 | lr 3.00e-05
+adım 630/822 | train loss 2.1209 | lr 2.72e-05
+adım 640/822 | train loss 2.1618 | lr 2.46e-05
+adım 650/822 | train loss 2.1808 | lr 2.21e-05
+adım 650 | val loss 2.1895
+adım 660/822 | train loss 2.4285 | lr 1.97e-05
+adım 670/822 | train loss 2.0938 | lr 1.74e-05
+adım 680/822 | train loss 2.0545 | lr 1.52e-05
+adım 690/822 | train loss 2.3757 | lr 1.32e-05
+adım 700/822 | train loss 2.2288 | lr 1.13e-05
+adım 700 | val loss 2.1848
+adım 710/822 | train loss 2.0758 | lr 9.56e-06
+adım 720/822 | train loss 2.3138 | lr 7.95e-06
+adım 730/822 | train loss 2.2547 | lr 6.49e-06
+adım 740/822 | train loss 2.2340 | lr 5.17e-06
+adım 750/822 | train loss 2.5386 | lr 3.99e-06
+adım 750 | val loss 2.1827
+adım 760/822 | train loss 2.2324 | lr 2.96e-06
+adım 770/822 | train loss 2.0962 | lr 2.09e-06
+adım 780/822 | train loss 2.1026 | lr 1.36e-06
+adım 790/822 | train loss 2.2584 | lr 7.92e-07
+adım 800/822 | train loss 2.3340 | lr 3.75e-07
+adım 800 | val loss 2.1817
+adım 810/822 | train loss 2.4115 | lr 1.12e-07
+adım 820/822 | train loss 2.1687 | lr 3.10e-09
+Bitti: 11967.0 sn, son val loss 2.1816
+Kaydedildi: outputs/seed42/lora_all_r16
+== lora_lower_r16 (seed 42)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Cihaz: cuda, karışık hassasiyet: torch.bfloat16
+Eğitilen parametre: 4,399,104 / 498,431,872 (0.883%)
+adım 0 | val loss 2.8208
+adım 10/822 | train loss 3.0643 | lr 9.17e-05
+adım 20/822 | train loss 2.7191 | lr 1.75e-04
+adım 30/822 | train loss 2.6428 | lr 2.00e-04
+adım 40/822 | train loss 2.6368 | lr 2.00e-04
+adım 50/822 | train loss 2.8686 | lr 1.99e-04
+adım 50 | val loss 2.6869
+adım 60/822 | train loss 2.7519 | lr 1.99e-04
+adım 70/822 | train loss 2.9432 | lr 1.98e-04
+adım 80/822 | train loss 3.0174 | lr 1.98e-04
+adım 90/822 | train loss 3.3263 | lr 1.97e-04
+adım 100/822 | train loss 2.9047 | lr 1.96e-04
+adım 100 | val loss 2.6345
+adım 110/822 | train loss 3.0250 | lr 1.94e-04
+adım 120/822 | train loss 3.0223 | lr 1.93e-04
+adım 130/822 | train loss 3.0854 | lr 1.91e-04
+adım 140/822 | train loss 2.8025 | lr 1.90e-04
+adım 150/822 | train loss 2.9092 | lr 1.88e-04
+adım 150 | val loss 2.6034
+adım 160/822 | train loss 3.1319 | lr 1.86e-04
+adım 170/822 | train loss 2.9383 | lr 1.84e-04
+adım 180/822 | train loss 2.7207 | lr 1.82e-04
+adım 190/822 | train loss 2.5713 | lr 1.79e-04
+adım 200/822 | train loss 2.8273 | lr 1.77e-04
+adım 200 | val loss 2.5731
+adım 210/822 | train loss 2.6386 | lr 1.74e-04
+adım 220/822 | train loss 3.0496 | lr 1.72e-04
+adım 230/822 | train loss 3.0475 | lr 1.69e-04
+adım 240/822 | train loss 2.7166 | lr 1.66e-04
+adım 250/822 | train loss 2.7593 | lr 1.63e-04
+adım 250 | val loss 2.5493
+adım 260/822 | train loss 2.5738 | lr 1.60e-04
+adım 270/822 | train loss 2.9153 | lr 1.57e-04
+adım 280/822 | train loss 2.7784 | lr 1.53e-04
+adım 290/822 | train loss 2.4561 | lr 1.50e-04
+adım 300/822 | train loss 2.9199 | lr 1.47e-04
+adım 300 | val loss 2.5290
+adım 310/822 | train loss 2.4978 | lr 1.43e-04
+adım 320/822 | train loss 3.0086 | lr 1.39e-04
+adım 330/822 | train loss 3.0905 | lr 1.36e-04
+adım 340/822 | train loss 2.4622 | lr 1.32e-04
+adım 350/822 | train loss 2.6097 | lr 1.28e-04
+adım 350 | val loss 2.5091
+adım 360/822 | train loss 2.4920 | lr 1.25e-04
+adım 370/822 | train loss 2.8092 | lr 1.21e-04
+adım 380/822 | train loss 2.5207 | lr 1.17e-04
+adım 390/822 | train loss 2.5395 | lr 1.13e-04
+adım 400/822 | train loss 2.4402 | lr 1.09e-04
+adım 400 | val loss 2.4934
+adım 410/822 | train loss 2.8295 | lr 1.05e-04
+adım 420/822 | train loss 2.6821 | lr 1.01e-04
+adım 430/822 | train loss 2.5701 | lr 9.72e-05
+adım 440/822 | train loss 2.6255 | lr 9.33e-05
+adım 450/822 | train loss 2.5982 | lr 8.94e-05
+adım 450 | val loss 2.4841
+adım 460/822 | train loss 2.2171 | lr 8.55e-05
+adım 470/822 | train loss 2.3037 | lr 8.16e-05
+adım 480/822 | train loss 2.5037 | lr 7.77e-05
+adım 490/822 | train loss 2.9425 | lr 7.39e-05
+adım 500/822 | train loss 2.6156 | lr 7.01e-05
+adım 500 | val loss 2.4732
+adım 510/822 | train loss 2.5461 | lr 6.64e-05
+adım 520/822 | train loss 2.4969 | lr 6.27e-05
+adım 530/822 | train loss 2.6576 | lr 5.91e-05
+adım 540/822 | train loss 2.5395 | lr 5.56e-05
+adım 550/822 | train loss 2.4365 | lr 5.21e-05
+adım 550 | val loss 2.4626
+adım 560/822 | train loss 2.3617 | lr 4.86e-05
+adım 570/822 | train loss 2.3130 | lr 4.53e-05
+adım 580/822 | train loss 2.5053 | lr 4.21e-05
+adım 590/822 | train loss 2.6333 | lr 3.89e-05
+adım 600/822 | train loss 2.1783 | lr 3.58e-05
+adım 600 | val loss 2.4562
+adım 610/822 | train loss 2.4105 | lr 3.29e-05
+adım 620/822 | train loss 2.6565 | lr 3.00e-05
+adım 630/822 | train loss 2.4098 | lr 2.72e-05
+adım 640/822 | train loss 2.4881 | lr 2.46e-05
+adım 650/822 | train loss 2.4400 | lr 2.21e-05
+adım 650 | val loss 2.4513
+adım 660/822 | train loss 2.6870 | lr 1.97e-05
+adım 670/822 | train loss 2.3873 | lr 1.74e-05
+adım 680/822 | train loss 2.3199 | lr 1.52e-05
+adım 690/822 | train loss 2.6501 | lr 1.32e-05
+adım 700/822 | train loss 2.5095 | lr 1.13e-05
+adım 700 | val loss 2.4490
+adım 710/822 | train loss 2.3670 | lr 9.56e-06
+adım 720/822 | train loss 2.5538 | lr 7.95e-06
+adım 730/822 | train loss 2.4827 | lr 6.49e-06
+adım 740/822 | train loss 2.5239 | lr 5.17e-06
+adım 750/822 | train loss 2.8566 | lr 3.99e-06
+adım 750 | val loss 2.4472
+adım 760/822 | train loss 2.5032 | lr 2.96e-06
+adım 770/822 | train loss 2.4083 | lr 2.09e-06
+adım 780/822 | train loss 2.3649 | lr 1.36e-06
+adım 790/822 | train loss 2.5388 | lr 7.92e-07
+adım 800/822 | train loss 2.6200 | lr 3.75e-07
+adım 800 | val loss 2.4470
+adım 810/822 | train loss 2.7324 | lr 1.12e-07
+adım 820/822 | train loss 2.4915 | lr 3.10e-09
+Bitti: 10832.8 sn, son val loss 2.4471
+Kaydedildi: outputs/seed42/lora_lower_r16
+== lora_attn_r16 (seed 42)
