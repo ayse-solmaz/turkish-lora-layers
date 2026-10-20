@@ -38,3 +38,21 @@ uv pip install -r requirements.txt
 ```
 
 Eğitim Kaggle/Colab GPU'sunda çalışır; analiz scriptleri CPU'da çalışır.
+
+## Kaggle'da çalıştırma
+
+Yeni notebook, **GPU T4 x2** ve **Internet On**. Tek hücre:
+
+```
+# 1) Eğitim (9 deney, ~4 saat)
+!git clone https://github.com/ayse-solmaz/turkish-lora-layers.git && cd turkish-lora-layers && bash scripts/kaggle_run.sh
+
+# 2) Değerlendirme (eğitim notebook'unun çıktısı Input olarak eklenmiş olmalı)
+!git clone https://github.com/ayse-solmaz/turkish-lora-layers.git && cd turkish-lora-layers && bash scripts/kaggle_eval.sh
+```
+
+Değerlendirme `eval_bundle.zip` üretir; yerelde grafikler:
+
+```bash
+python src/plots.py --bundle results/bundle_seed42
+```
