@@ -1,0 +1,258 @@
+{
+  "exp": "lora_all_r64",
+  "test_loss": 2.9563263480496436,
+  "en_ppl": 17.08876869465404,
+  "arc_easy": 0.632,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 0.8,
+    "mean_repetition": 0.5982083333333333,
+    "finished_rate": 0.0,
+    "instruction_pass": 0.2,
+    "mean_words": 127.375
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir görüntüye birbirinden birbirine bakarak birbirine bağlanmak için bir araç kullanır. Bir fotoğrafın içi birbirinden birbirine bağlanması, fotoğrafın içi ve içi üzerindeki tüm değişikliklerin bir arada olduğunu gösterir. Bir fotoğrafın içi birbirinden birbirine bağlanması, fotoğrafın içi ve içi üzerindeki değişikliklerin bir arada olduğunu gösterir. Bu nedenle, fotosentez, fotoğrafın içi ve içi üzerindeki değişikliklerin bir arada olduğunu gösterir. Bu nedenle, fotosentez, fotoğrafın içi ve içi üzerindeki değişikliklerin bir arada olduğunu gösterir. Bu nedenle, fotosentez, fotoğrafın içi ve içi üzerindeki değişikliklerin bir arada olduğunu gösterir. Bu nedenle, fotosentez, fotoğrafın içi ve içi üzerindeki değişikliklerin bir arada olduğunu gösterir. Bu nedenle, fotosentez, fotoğrafın içi ve içi üzerindeki değişikliklerin bir arada olduğunu gösterir. Bu nedenle,",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.651
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri, Kızılırmak Nehri'dir. Bu nehri, Türkiye'nin en uzun ve en büyük deniz nehri olup, 120 km uzunluğu ve 100 km genişliği ile bilinir. Bu deniz nehri, Türkiye'nin en büyük deniz denizi olan Kızılay Denizi'ne dökülür. Bu deniz nehri, Türkiye'nin en uzun ve en büyük deniz denizlerinden biridir. Bu deniz nehri, Türkiye'nin en büyük deniz denizlerinden biridir. Bu deniz nehri, Türkiye'nin en uzun ve en büyük deniz denizlerinden biridir. Bu deniz nehri, Türkiye'nin en büyük deniz denizlerinden biridir. Bu deniz nehri, Türkiye'nin en uzun ve en büyük deniz denizlerinden biridir. Bu deniz nehri, Türkiye'nin en büyük deniz denizlerinden biridir. Bu deniz nehri, Türkiye'nin en uzun ve en büyük deniz denizlerinden biridir. Bu deniz neh",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.611
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 1881 yılında Selanik'te doğdu. Osmanlı İmparatorluğu'nun çöküşünden sonra, 1923'te Türkiye Cumhuriyeti'nin kurulmasıyla birlikte Türkiye'ye yeni bir devlet kurdu. Atatürk, bu süreçte Türkiye'nin ilk cumhurbaşkanı oldu ve 1938'de Türkiye Cumhuriyeti'nin ilk cumhurbaşkanı oldu. Atatürk, modern Türkiye'nin temellerini atmış ve Türkiye'nin modernleşme sürecini hızlandırmıştır. Atatürk'ün hayatı, Türkiye'nin sosyal, politik ve kültürel yapısını derinden etkilemiştir. Atatürk'ün hayatı, Türkiye'nin modernleşme sürecinde önemli bir rol oynamıştır. Atatürk'ün hayatı, Türkiye'nin modernleşme sürecinde önemli bir dönüm noktasıdır. Atatürk'ün hayatı, Türkiye'nin modernleşme sürecinde önemli bir rol oynamıştır. Atatürk'ün hayatı, Türkiye'nin modernleşme sürecinde önemli bir dönüm noktasıdır. Atatürk'ün hayatı, Türkiye'nin modernleşme sürecinde önemli bir rol",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.281
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir miktar artışa ve bu artışa göre bir miktar artırmak için bir miktar daha az olan bir miktarın artmasıdır. Enflasyon, genellikle ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik ve sosyal durumların birleşiminden kaynaklanır. Enflasyon, ekonomik",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.651
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) işlemi yapmak için bir bilgisayarın herhangi bir işlem için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. İşlem cihazının işlemcisi tarafından bir işlem yapmak için bu kodlar oluşturulur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur. Bu kodlar, işlemcisi tarafından bir işlem yapmak için bir işlem kodu oluşturur.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.764
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Ekmek yapmak için en basit bir tarif olan bir dizi ekmek ürününü kullanabilirsiniz. Bu dizi ekmek ürünleri arasında; kuru ekmek, kuru soğan, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ, kuru yağ,",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.805
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için en iyi yöntemlerden biri de bir dizi stresi azaltmak için kullanabileceğiniz bir program olabilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir dizi stresi azaltmak için kullanıma izin verilir. Bu program, bir süre boyunca bir",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.752
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakmak için en iyi yöntemleri şunlardır:1- Kışın Evin Kullanımı: Evin kışınıza kaçmak için en iyi yöntemlerden biri, evin kışınıza kaçmak için bir krem kullanmaktır. Bu krem, kışın evin kışınıza kaçmak için en iyi yöntemlerden biridir. 2- Kışın Evin Kullanımı: Evin kışınıza kaçmak için en iyi yöntemlerden biri, evin kışınıza kaçmak için bir krem kullanmaktır. Bu krem, kışın evin kışınıza kaçmak için en iyi yöntemlerden biridir. 3- Kışın Evin Kullanımı: Evin kışınıza kaçmak için en iyi yöntemlerden biri, evin kışınıza kaçmak için bir krem kullanmaktır. Bu krem, kışın evin kışınıza kaçmak için en iyi yöntemlerden biridir. 4- Kışın Evin Kullanımı: Evin kışınıza kaçmak için",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.583
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\n\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\n\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\n\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\n\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\nSonbahar, günün sonuna kadar\nKalan günlerin içinde\nDüzgün bir gün olarak\nGünün sonuna kadar\nSonbahar, günün sonuna",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.875
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşü, insanlık tarihinde önemli bir dönüm noktası olmuştur. Bu süreçte, insanlar birbirleriyle bağlanma ve ilişkiler kurma amacıyla bir kediye girmeye başlamışlardır. Ancak bu durum, bir kedi daha sonra evlilik sürecine girmeye devam etmiştir.\n\nBu döneme ait bir hikaye, bir kedi birbirlerine karşı bir savaş yapmış ve bu savaşın sonunda bir kediye girmiş olur. Bu savaş, kediye yönelik bir saldırı olarak bilinir. Ancak bu saldırı, kediye yönelik bir saldırı olarak bilinir. Ancak kediye yönelik bir saldırı olarak bilinir. Ancak kediye yönelik bir saldırı olarak bilinir.\n\nBu savaşın sonunda, bir kedi birbirlerine karşı bir savaş yapmış ve bu savaşın sonunda bir kediye girmiş olur. Bu savaşın sonunda, bir kedi birbirlerine karşı bir savaş yapmış ve bu savaşın sonunda bir kediye girmiş olur. Bu savaşın sonunda, bir kedi birbirlerine karşı",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.383
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.<quote>\nŞu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.<quote>\nŞu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.639
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabahı, kütüphaneye gideceğim. Bu, yarının kütüphanesiyle ilgili bir şekilde ilgili olacak. Yarın, kütüphaneyi ziyaret etmek için bir süre beklemek zorundadır. Kütüphaneyi ziyaret etmek, yarının kütüphanesiyle ilgili bir şekilde ilgili olmak için bir süre beklemek zorundadır. Bu, yarının kütüphanesiyle ilgili bir şekilde ilgili olacak. Yarın sabahı, kütüphaneye gideceğim. Bu, yarının kütüphanesiyle ilgili bir şekilde ilgili olacak. Yarın sabahı, kütüphaneye gideceğim. Bu, yarının kütüphanesiyle ilgili bir şekilde ilgili olacak. Yarın sabahı, kütüphaneye gideceğim. Bu, yarının kütüphanesiyle ilgili bir şekilde",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.547
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Bu cümlede \"Herkez bu konuda\" kelimesi yanlış olarak kullanılmıştır. \"Herkez bu konuda\" kelimesi \"Herkez bu konuda birşey söylemek istiyordu\" anlamına gelmektedir. Bu kelimenin yanlış olduğu için düzeltmek gerekir. Bu cümlede \"Herkez bu konuda\" kelimesi yanlış olarak kullanılmıştır. \"Herkez bu konuda\" kelimesi \"Herkez bu konuda birşey söylemek istiyordu\" anlamına gelmektedir. Bu kelimenin yanlış olduğu için düzeltmek gerekir. Bu cümlede \"Herkez bu konuda\" kelimesi yanlış olarak kullanılmıştır. \"Herkez bu konuda\" kelimesi \"Herkez bu konuda birşey söylemek istiyordu\" anlamına gelmektedir. Bu kelimenin yanlış olduğu için düzeltmek gerekir. Bu cümlede \"Herkez bu konuda\" kelimesi yanlış olarak kullanılmıştır. \"Herkez bu",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.647
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Ağız ve Kanser Sağlığı: Ağız sağlığını korumak için genel olarak 3 adet test yapmak, 3-4 gün bir süre uzman durmak ve 1-2 gün bir süre uzman durmak önemlidir. Bu testler arasında ağız sağlığı testi, ağız sağlığı testi, ağız sağlığı testi ve ağız sağlığı testi gibi çeşitli testler bulunmaktadır.\n\n2. Sağlık Hizmetleri: Sağlık hizmetleri, sağlık hizmetlerine ihtiyaç duyulmayan hastalıkların tedavisinde önemli bir rol oynar. Bu hizmetler arasında hastanın sağlık hizmetlerine erişimi, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine erişim, sağlık hizmetlerine er",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.276,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Düzenli uyum, bir kişinin her zaman uyum sağlamak için gereken ve ihtiyaç duyulan her şeyi içerir. Bu nedenle, düzenli uyumun önemli bir özelliği, herkesin her zaman uyum sağlamak için gereken ve ihtiyaç duyulan her şeyi içermesidir. Bu nedenle, düzenli uyum, insanın hayatında daha fazla uyum sağlayarak daha iyi bir yaşam tarzını oluşturabilir. Bu nedenle, düzenli uyum, insanın yaşam tarzını ve yaşam kalitesini iyileştirebilir. Bu nedenle, düzenli uyum, insanın yaşamında daha fazla uyum sağlayarak daha iyi bir yaşam tarzını oluşturabilir. Bu nedenle, düzenli uyum, insanın yaşam tarzını ve yaşam kalitesini iyileştirebilir. Bu nedenle, düzenli uyum, insanın yaşamında daha fazla uyum sağlayarak daha iyi bir yaşam tarzını oluşturabilir. Bu nedenle, düzenli uyum, insanın yaşam tarzını ve yaşam kalitesini iyileştirebilir. Bu nedenle, düzenli uyum",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.508,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul'un Tarihi\n2. İstanbul'un Kültürel Mirası\n3. İstanbul'un Tarih\n4. İstanbul'un Tarihçesi\n5. İstanbul'un Tarihçesi'nin En Büyük Şehirlerinden Biri\n6. İstanbul'un Tarihçesi'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri\n7. İstanbul'un Tarihçesi'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirlerinden Biri'nin En Büyük Şehirler",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.667,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük şehri merkezi olup, tarihi ve kültürel zenginlikleriyle bilinir. Ayrıca turistik bir merkez haline gelmiştir.\n\n2. Ankara: Türkiye'nin başkenti olan Ankara, tarihi ve kültürel zenginlikleriyle de bilinir. Ayrıca Türkiye'nin en popüler şehri olarak da bilinen şehirdir.\n\n3. İzmir: Türkiye'nin ikinci en büyük şehri olan İzmir, tarihi ve kültürel zenginlikleriyle de bilinir. Ayrıca Türkiye'nin en popüler turistik merkezlerinden biri olarak da bilinen şehirdir.\n\n4. Ankara: Türkiye'nin başkenti olan Ankara, tarihi ve kültürel zenginlikleriyle de bilinir. Ayrıca Türkiye'nin en popüler şehri olarak da bilinen şehirdir.\n\n5. İzmir: Türkiye'nin ikinci en büyük şehri olan İzmir, tarihi ve kültürel zenginlikleriyle de bilinir. Ayrıca Türkiye'nin en popüler turistik merkez",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.385,
+      "check_passed": true
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.78
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "100 km 3 saat 40 dakika yol alır. 80 km 3 saat 20 dakika yol alır. 60 km 3 saat 40 dakika yol alır. 40 km 3 saat 40 dakika yol alır. 20 km 3 saat 40 dakika yol alır. 10 km 3 saat 40 dakika yol alır. 5 km 3 saat 40 dakika yol alır. 1 km 3 saat 40 dakika yol alır. 0.5 km 3 saat 40 dakika yol alır. 0.25 km 3 saat 40 dakika yol alır. 0.125 km 3 saat 40 dakika yol alır. 0.0625 km 3 saat 40 dakika yol alır. 0.03125 km 3 saat 40 dakika yol alır. 0.015625 km 3 saat 40 dakika yol alır. 0.0078125 km 3",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.429
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the Australian Capital Territory. Canberra is the capital city of the",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.93
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine, genellikle bir ilaç veya ilaç teratosu önlemek amacıyla kullanılır. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genellikle bir ilaç teratosu önlemek amacıyla kullanılır. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genellikle bir ilaç teratosu önlemek amacıyla kullanılır. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genellikle bir virus veya diğer etkili bir gerilim türüne sahiptir. Bu ilaçlar, genell",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.761
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast expanse,\nA place of mystery and wonder.\nIts depths, I never knew it was deep,\nA world of beauty and beauty.\n\nThe waves, they dance and they roar,\nA symphony of sound and sound.\nThe sun, it shines bright and bright,\nA light that can't be found.\n\nThe ocean, a place of peace,\nA place where I can find my peace.\nA place where I can find my peace,\nAnd I'll never be alone. \n\nThe ocean, a place of love,\nA place where I can find my love.\nA place where I can find my love,\nAnd I'll never be alone. \n\nThe ocean, a place of hope,\nA place where I can find my hope.\nA place where I can find my hope,\nAnd I'll never be alone. \n\nThe ocean, a place of love,\nA place where I can find my love.\nA place where I can find my love,\nAnd I'll never be alone. \n\nThe ocean, a place of love,\nA place where I can find my love.\nA place where I can find my love,\nAnd I'll never be alone. \n\nThe ocean, a place of love,\nA place where I can find my love.\nA place where",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.51
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Start with Basic Grammar: Before moving on to more complex structures, it's essential to learn the basic grammar rules of the language you're learning. This will help you understand how words and phrases work together and how sentences are structured.\n\n2. Practice with Real Context: The best way to learn a new language is to use it in real-life situations. Read, listen, watch TV shows and movies, and practice writing in the language. This will help you apply what you've learned and improve your language skills.\n\n3. Use Language Learning Tools: There are many language learning tools available, including apps, websites, and language exchange platforms. These tools can help you track your progress, set goals, and find support from others. Choose the one that best suits your needs and preferences. \n\n4. Be Patient and Persistent: Learning a new language takes time and effort. Don't get discouraged if you make mistakes or encounter difficulties. Keep practicing and reviewing, and you'll eventually improve your language skills. \n\n5. Study the Language: The more you study the language, the better you'll understand its structure and meaning. This will help you apply what you've learned and improve your language skills. \n\n6. Join a Language Group or Community: Joining a language group or",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.059,
+      "check_passed": false
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "If you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So, you have 6 apples left. And if you give away 4 apples, you will have 10 - 4 = 6 apples left. So,",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.863
+    }
+  ],
+  "eval_seconds": 94.4
+}

@@ -1,0 +1,258 @@
+{
+  "exp": "lora_all_r4",
+  "test_loss": 3.180980235629398,
+  "en_ppl": 15.14615958788979,
+  "arc_easy": 0.652,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 0.6,
+    "mean_repetition": 0.6447916666666667,
+    "finished_rate": 0.0,
+    "instruction_pass": 0.2,
+    "mean_words": 120.29166666666667
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.984
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri, İstanbul'da olan İstanbul Nehri'dir. İstanbul Nehri, 1963 yılında 10.000 kişi tarafından 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1000 milyon dolar'a kadar 1",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.765
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, Türkiye'nin ilk Cumhuriyet lideri ve ilk Cumhuriyet başkenti İstanbul'u kurmuştur. 1923 yılında İstanbul'da Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1935 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1938 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1945 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1948 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1953 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1960 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1961 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1962 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 1963 yılında Cumhuriyet'in başlamasıyla başlamıştır. Atatürk, 19",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.236
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde yayılabilir. Enflasyon, bir yere gelen bir yere doğru bir şekilde",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.921
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bir bilgisayarın işlemcisi (CPU) genellikle bir bilgisayarın en önemli işlerinden biridir. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İşlemcisi, bilgisayarın işlem yapma ve işlem yapma süreciyle birlikte çalışır. İş",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.778
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için basit bir tarif verir. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.88
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için bir süre önce bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir türde bir şey yapmak, bir yemek ve bir tür",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.896
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın ev bitkilerine bakmak için bir kışın",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.911
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, Türkiye'nin en önemli ve en güzel bölgelerinden biridir. Bu bölgede yaşayan insanlar, zengin bir kültür ve mimari yapısını da bulur. Sonbahar'da yapılan eserler, bu dünyada en önemli eserlerdir.\n\nSonbahar'da yapılan eserler, genellikle tarihi ve kültürel zenginliklerin bir araya gelir. Bu eserler, insanların yaşam tarzını, kültürünü ve mimari yapısını yansıtan bir ressuratdir. Sonbahar'da yapılan eserler, hem yerel hem de uluslararası alanda tanınır. Bu eserler, hem yerel hem de uluslararası kültür ve mimari yapısını yansıtan bir ressuratdir.\n\nSonbahar'da yapılan eserler, hem yerel hem de uluslararası alanda tanınır. Bu eserler, hem yerel hem de uluslararası kültür ve mimari yapısını yansıtan bir ressuratdir. Sonbahar'da yapılan eserler, hem yerel hem de uluslararası alanda tanınır. Bu eserler, hem yerel hem de uluslararası kültür ve mim",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.427
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye:\n\nBu durum, insanlar için bir sorun olur. Kaybolan bir kedinin evine dönüşümü, insanlar için bir sorun olur. Evinizi kaybettiğiniz bir kedinin, insanları birbirleriyle birlikte bir araya getirerek, insanlar için bir sorun olur. Kaybolan bir kedinin evine dönüşümü, insanlar için bir sorun olur. Evinizi kaybettiğiniz bir kedinin, insanları birbirleriyle birlikte bir araya getirerek, insanlar için bir sorun olur. Kaybolan bir kedinin evine dönüşümü, insanlar için bir sorun olur. Evinizi kaybettiğiniz bir kedinin, insanları birbirleriyle birlikte bir araya getirerek, insanlar için bir sorun olur. Kaybolan bir kedinin evine dönüşümü, insanlar için bir sorun olur. Evinizi kaybettiğiniz bir kedinin, insanları birbirleriyle birlik",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.676
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.LIBINTİ. 1998 yılında, Türkiye'nin ilk bilim dalı olarak kabul edilen Yapay Zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.LIBINTİ. 1998 yılında, Türkiye'nin ilk bilim dalı olarak kabul edilen Yapay Zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oyn",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.528
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, bir yana \"yarın sabah\" ve",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.777
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Bu hatalı bir hata, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazılır. Bu hatalı hata, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazılır. Bu hatalı hata, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazılır. Bu hatalı hata, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazılır. Bu hatalı hata, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazılır. Bu hatalı hata, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazılır. Bu hatalı hata, \"Herkez bu konuda bir",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.771
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Yalnızlık: Sağlıklı yaşam için yalanlık yolu, yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık yoluyla birlikte yalanlık",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.88,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver. Bu cümlede, düzenli uyumunun nasıl yapıldığı ve nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığı hakkında bilgi vermek gerekir. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz. Bu nedenle, düzenli uyumun nasıl yapıldığını belirleyebiliriz",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.61,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul\n2. Kütüphane\n3. Çini\n4. Çiniye\n5. Çiniye\n6. Çiniye\n7. Çiniye\n8. Çiniye\n9. Çiniye\n10. Çiniye\n11. Çiniye\n12. Çiniye\n13. Çiniye\n14. Çiniye\n15. Çiniye\n16. Çiniye\n17. Çiniye\n18. Çiniye\n19. Çiniye\n20. Çiniye\n21. Çiniye\n22. Çiniye\n23. Çiniye\n24. Çiniye\n25. Çiniye\n26. Çiniye\n27. Çiniye\n28. Çiniye\n29. Çiniye\n30. Çiniye\n31. Çiniye\n32. Çiniye\n33. Çiniye\n34. Çiniye\n35. Çiniye\n36. Çiniye\n37. Çiniye\n38. Çiniye",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehirlerinden biridir. Karadeniz Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. Ayrıca, İstanbul'un en popüler şehirlerinden biridir ve tarihi ve kültürel zenginlikleri ile bilinir. Ayrıca, İstanbul'un en büyük şehirlerinden biridir ve tarihi ve kültürel zenginlikleri ile bilinir.\n\n2. Ankara: Türkiye'nin en büyük şehirlerinden biridir. Karadeniz Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. Ayrıca, Ankara'nın en popüler şehirlerinden biridir ve tarihi ve kültürel zenginlikleri ile bilinir.\n\n3. İzmir: Türkiye'nin en büyük şehirlerinden biridir. Karadeniz Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. Ayrıca, İzmir'un en popüler şehirler",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.51,
+      "check_passed": false
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe ona 4 elma daha veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe ona 4 elma veriyor. Ayşe",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.921
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "3 saat giderse 240 km yol alır. 80 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3 saat giderse 240 km hızla 3",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.897
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. It is located in the Northern Territory, just north of the Great Barrier Reef. Canberra is also known as the \"City of Gold\" due to its rich history and mining heritage. The city is home to the Australian National University, the Australian Museum, the National Library of Australia, and the Australian National Botanic Gardens. Canberra is also the seat of the Australian Federal Government, the Australian Defence Force, and the Australian Federal Police. It is also the location of the Australian Capital Territory, which is a part of the Northern Territory. Although Canberra is the capital of Australia, it is not the only capital city. Other capital cities include Sydney, Melbourne, Brisbane, and Adelaide. However, Canberra is the most popular and well-known capital city in Australia.ibilik\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nBilgiye\nB",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.101
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "Vaccination, genellikle genelizmizde \"vaccination\" anlamına gelir. Bu nedenle, \"vaccination\" genellikle \"vaccination\" olarak kabul edilir. Vaccination, genellikle genelizmizde \"vaccination\" anlamına gelir. Bu nedenle, \"vaccination\" genellikle \"vaccination\" olarak kabul edilir. Vaccination, genellikle genelizmizde \"vaccination\" anlamına gelir. Bu nedenle, \"vaccination\" genellikle \"vaccination\" olarak kabul edilir. Vaccination, genellikle genelizmizde \"vaccination\" anlamına gelir. Bu nedenle, \"vaccination\" genellikle \"vaccination\" olarak kabul edilir. Vaccination, genellikle genelizmizde \"vaccination\" anlamına gelir. Bu nedenle, \"vaccination\" genellikle \"vaccination\" olarak kabul edilir. Vaccination, genellikle geneliz",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.786
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast, blue canvas,\nA mirror of the world, a mirror of the sky.\nIts depths, a labyrinth of secrets,\nA world of life, a world of mystery.\nThe waves, a chorus of laughter,\nA chorus of waves, a chorus of laughter.\nThe sun, a bright, shining light,\nA bright, shining light, a bright, shining light.\nThe moon, a silver, shining moon,\nA silver, shining moon, a silver, shining moon.\nThe stars, a twinkling, shining star,\nA twinkling, shining star, a twinkling, shining star.\nThe ocean, a place of peace,\nA place of peace, a place of peace.\nSo let us cherish the ocean,\nLet us cherish the ocean, let us cherish the ocean..quote\nBirinci bölümde, \"A mirror of the world, a mirror of the sky\" ifade eder. \"A mirror of the world\" ifade eder. \"A mirror of the sky\" ifade eder. \"A mirror of the world, a mirror of the sky\" ifade eder. \"A mirror of the world, a mirror of the sky\" ifade eder. \"A mirror of the world, a mirror of",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.277
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice, Practice, Practice: The most important thing when learning a new language is to practice it as much as possible. Find a language partner or join a language exchange group to practice speaking and listening with native speakers. This will help you to improve your pronunciation, vocabulary, and grammar.\n\n2. Use the Language: Learning a new language is not just about memorizing words and grammar rules. It's also about using the language in real-life situations. Try to use the language in conversations, reading, and writing. This will help you to understand the language better and improve your listening and comprehension skills.\n\n3. Be Patient and Persistent: Learning a new language takes time and effort. Don't get discouraged if you make mistakes or encounter difficulties. Keep practicing and keep learning. Don't be afraid to ask for help or advice from native speakers or language tutors. And don't be afraid to try new things and experiment with different ways of using the language. You never know what you'll discover! Bu tiplerin en iyi şekilde kullanılması, bu tiplerin en iyi şekilde kullanılmasıdır. Bu tiplerin en iyi şekilde kullanılması, bu tiplerin en iyi şekilde kullanılmasıdır. Bu tiplerin en iyi şekilde kullanılması",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.097,
+      "check_passed": true
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "10 - 4 = 6 apples. 6 apples. 10 apples. 6 apples. 4 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples. 6 apples. 10 apples. 4 apples",
+      "finished": false,
+      "detected_lang": "?",
+      "repetition": 0.846
+    }
+  ],
+  "eval_seconds": 107.8
+}

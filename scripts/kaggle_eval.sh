@@ -10,8 +10,9 @@ pip uninstall -y -q torchao
 export HF_HUB_DISABLE_PROGRESS_BARS=1
 export PYTHONUNBUFFERED=1
 
-# Eğitilmiş modelleri bul: /kaggle/input/<notebook>/.../outputs/seed42
-RUNS=$(find /kaggle/input -type d -path "*outputs/seed$SEED" 2>/dev/null | head -1)
+# Eğitilmiş modeller: RUNS_DIR verilmişse orası (kaggle_run.sh aynı notebook'ta çağırınca),
+# yoksa Input olarak eklenen eğitim notebook'unda ara: /kaggle/input/<notebook>/.../outputs/seed42
+RUNS=${RUNS_DIR:-$(find /kaggle/input -type d -path "*outputs/seed$SEED" 2>/dev/null | head -1)}
 if [ -z "$RUNS" ]; then
   echo "!! Eğitilmiş modeller bulunamadı. Sağ panelden Input -> eğitim notebook'unu ekle."
   exit 1

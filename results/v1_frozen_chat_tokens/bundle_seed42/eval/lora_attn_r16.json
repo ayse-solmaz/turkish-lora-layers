@@ -1,0 +1,258 @@
+{
+  "exp": "lora_attn_r16",
+  "test_loss": 3.241618068042169,
+  "en_ppl": 15.416948213138578,
+  "arc_easy": 0.668,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 1.0,
+    "mean_repetition": 0.6794583333333333,
+    "finished_rate": 0.0,
+    "instruction_pass": 0.2,
+    "mean_words": 135.08333333333334
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.984
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri, 19. yüzyılın sonunda Osmanlı İmparatorluğu'nun sonunda sona ermesiyle birlikte 18. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 17. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 16. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 15. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 14. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 13. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 12. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 11. yüzyılın sonunda Osmanlı İmparatorluğu'nun sona ermesiyle birlikte 1",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.387
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, Osmanlı İmparatorluğu'nun en önemli ve en önemli bir devlet başkenti olan İzmir'te doğmuştur. 1899 yılında Osmanlı İmparatorluğu'nun sona ermesiyle başlamıştır. Atatürk, bu dönemde Türkiye'nin devletin başkenti olan İzmir'de yaşanan bir devlet başkenti olarak kabul edilmiştir. Atatürk, bu dönemde Türkiye'nin devletin başkenti olan İzmir'de yaşanan bir devlet başkenti olarak kabul edilmiştir. Atatürk, 1923 yılında Osmanlı İmparatorluğu'nun sona ermesiyle başlamıştır. Atatürk, bu dönemde Türkiye'nin devletin başkenti olan İzmir'de yaşanan bir devlet başkenti olarak kabul edilmiştir. Atatürk, 1938 yılında Osmanlı İmparatorluğu'nun sona ermesiyle başlamıştır. Atatürk, bu dönemde Türkiye'nin devletin başkenti olan İzmir'de yaşanan bir devlet başkenti olarak kabul edilmiştir. Atatürk, 1945 yılında Osmanlı İmparatorluğu'nun son",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.5
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan bir dizi olarak bilinir. Enflasyon, bir tür bir dizi olmayan",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.912
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) genellikle bir elektronik bir komut satırıdır. Bu satır, bilgisayarın işlemi yapması için kullanılan bir satırdır. İşlemcisi, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur. Bu satır, bilgisayarın işlemi yapması için bir satır oluşturur.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.779
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için basit bir tarif verir. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.88
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabiliriz. Bu, bir tür bir şey yapabilir",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.927
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakılır: Kışın ev bitkileri, evin bitkileri ile birlikte birbirine bağlıdır. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum, evin bitkileriyle birlikte birbirine bağlı olduğu anlamına gelir. Bu durum,",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.775
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle birlikte, bir tür bir şeyin bir araya gelmesiyle bir",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.915
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye, bir kedinin evine dönüşünü nasıl anlatır ve bu anlatı nasıl kullanılır olur. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu konuda daha fazla bilgi vermektedir. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu konuda daha fazla bilgi vermektedir. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu konuda daha fazla bilgi vermektedir. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu konuda daha fazla bilgi vermektedir. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu konuda daha fazla bilgi vermektedir. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu konuda daha fazla bilgi vermektedir. Kaybolan bir kedinin evine dönüşünü anlatan kısa hikaye, bu kon",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.723
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.該使用者\nläbeleriyle birlikte, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.該使用者\nläbeleriyle birlikte, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.該使用者\nläbeleriyle birlikte, bil",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.637
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim.該使用者, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者, sabah, kütüphaneye gideceğim.該使用者,",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.844
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Bu hataları düzeltmek için, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazabilirsiniz. Bu hataları düzeltmek için, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazabilirsiniz. Bu hataları düzeltmek için, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazabilirsiniz. Bu hataları düzeltmek için, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazabilirsiniz. Bu hataları düzeltmek için, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.\" şeklinde yazabilirsiniz. Bu hataları düzeltmek için, \"Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemed",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.782
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Aşk: Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağlar. Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağlar. Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağlar. Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağlar. Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağlar. Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağlar. Aşk, bir süre boyunca yaşamak için en önemli bir şeydir. Bu, insanın yaşamını ve yaşamın içine girmesini sağ",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.832,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver. Bu cümlede, düzenli uyumalıyız, düzenli bir şekilde yapmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalışmak, düzenli bir şekilde çalış",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.841,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul\n2. Konya\n3. Ankara\n4. İzmir\n5. Bursa\n6. Trabzon\n7. Edirne\n8. Antalya\n9. Samsun\n10. Kars\n11. Konya\n12. Diyarbakır\n13. Erzurum\n14. Van\n15. Edirne\n16. Kars\n17. Trabzon\n18. Antalya\n19. İzmir\n20. Samsun\n21. Trabzon\n22. Antalya\n23. Diyarbakır\n24. Erzurum\n25. Van\n26. Edirne\n27. Kars\n28. Trabzon\n29. Antalya\n30. İzmir\n31. Samsun\n32. Trabzon\n33. Antalya\n34. Diyarbakır\n35. Erzurum\n36. Van\n37. Edirne\n38. Kars\n39. Trabzon\n40. Antalya",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehirlerinden biri olan İstanbul, 19. yüzyılda Osmanlı İmparatorluğu'nun en önemli şehirlerinden biridir. İstanbul'un en önemli maddelerinden biri olan Sultanahmet Camii, Osmanlı İmparatorluğu'nun en önemli ve en çok ziyaret edilen cami olan bu madde, Osmanlı İmparatorluğu'nun en önemli ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en önemli ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük ve en çok ziyaret edilen cami olan bu madde, Türkiye'nin en büyük",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.667,
+      "check_passed": false
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı? Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe 4 elma veriyor. Ayşe 2 elma yiyor. Ayşe",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.761
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "80 km hızla 3 saat giderse 240 km yol alır. 240 km yol alındığında 100 km hızla 2 saat giderse 200 km yol alır. 200 km yol alındığında 100 km hızla 1 saat giderse 100 km yol alır. 100 km yol alındığında 50 km hızla 1 saat giderse 50 km yol alır. 50 km yol alındığında 25 km hızla 1 saat giderse 25 km yol alır. 25 km yol alındığında 10 km hızla 1 saat giderse 10 km yol alır. 10 km yol alındığında 5 km hızla 1 saat giderse 5 km yol alır. 5 km yol alındığında 2 km hızla 1 saat giderse 2 km yol alır. 2 km yol alındığında 1 km hızla 1 saat giderse 1 km yol alır. 1 km yol al",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.122
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. It is located in the central region of the country. Canberra is the capital of the Australian Capital Territory (ACT), which is a federal state in the Northern Territory. Canberra is the only capital city in Australia. It is the largest city in the country, with a population of 1.3 million people. It is also the largest city in the Northern Territory, with a population of 1.2 million people. Canberra is the only capital city in Australia. It is the only capital city in Australia. It is the largest city in the Northern Territory, with a population of 1.2 million people. It is the only capital city in Australia. It is the only capital city in Australia. It is the largest city in the Northern Territory, with a population of 1.2 million people. It is the only capital city in Australia. It is the only capital city in Australia. It is the largest city in the Northern Territory, with a population of 1.2 million people. It is the only capital city in Australia. It is the only capital city in Australia. It is the largest city in the Northern Territory, with a population of 1.2 million people. It is the only capital city in Australia.",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.639
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine is a way to protect yourself from getting sick. It's like a special medicine that your body makes on its own. When you get a vaccine, your body starts making special cells called immune cells. These cells are like superheroes that protect your body from getting sick. They also help your body fight off any sickness that comes your way. So, if you get a vaccine, you're helping your body make extra immune cells and protect yourself from getting sick.SupportedException\nYou are a helpful assistant. Explain in simple terms how a vaccine works.SupportedException\nA vaccine is a special medicine that your body makes on its own. When you get a vaccine, your body starts making special cells called immune cells. These cells are like superheroes that protect your body from getting sick. They also help your body fight off any sickness that comes your way. So, if you get a vaccine, you're helping your body make extra immune cells and protect yourself from getting sick.SupportedException\nYou are a helpful assistant. Explain in simple terms how a vaccine works.SupportedException\nA vaccine is a special medicine that your body makes on its own. When you get a vaccine, your body starts making special cells called immune cells. These cells are like superheroes that protect your body from getting sick. They",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.562
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast, blue canvas,\nA mirror of the sky, a mirror of the sea.\nIts waves, like a symphony,\nA symphony of sound, a symphony of light.\nThe sun's rays, a gentle breeze,\nA gentle breeze, a gentle breeze.\nThe ocean, a mirror of the sky,\nA mirror of the sea, a mirror of the sea.SupportedException\nWrite a short poem about the ocean.SupportedException\nThe ocean, a vast, blue canvas,\nA mirror of the sky, a mirror of the sea.\nIts waves, like a symphony,\nA symphony of sound, a symphony of light.\nThe sun's rays, a gentle breeze,\nA gentle breeze, a gentle breeze.\nThe ocean, a mirror of the sky,\nA mirror of the sea, a mirror of the sea.SupportedException\nWrite a short poem about the ocean.SupportedException\nThe ocean, a vast, blue canvas,\nA mirror of the sky, a mirror of the sea.\nIts waves, like a symphony,\nA symphony of sound, a symphony of light.\nThe sun's rays, a gentle breeze,\nA gentle breeze, a gentle breeze.\nThe ocean, a mirror of the sky,\nA mirror of the sea, a",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.663
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice regularly: Learning a new language requires consistent practice. Set aside time each day or week to study a new word, phrase, or sentence. This will help you become familiar with the language and improve your understanding of its grammar and syntax.\n\n2. Use a language learning app: There are many language learning apps available online that can help you practice your language skills. These apps often include interactive exercises, games, and quizzes that can help you improve your language skills.\n\n3. Join a language exchange group: Joining a language exchange group is a great way to practice your language skills with native speakers. You can find language exchange groups on social media platforms or language exchange websites. You can also join language exchange groups in your local area. This will help you practice your language skills with native speakers and improve your communication skills. Bu tip, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\" yapmak, \"Join a language exchange group\"",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.258,
+      "check_passed": true
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful assistant. You will answer: 10 - 4 = 6 apples. You are a helpful",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.917
+    }
+  ],
+  "eval_seconds": 92.7
+}

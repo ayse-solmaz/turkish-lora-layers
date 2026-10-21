@@ -1,0 +1,258 @@
+{
+  "exp": "lora_mlp_r16",
+  "test_loss": 3.0977656252804997,
+  "en_ppl": 15.510072627830464,
+  "arc_easy": 0.658,
+  "behavior": {
+    "tr_answered_in_tr": 0.9444444444444444,
+    "en_answered_in_en": 0.8,
+    "mean_repetition": 0.5927916666666667,
+    "finished_rate": 0.0,
+    "instruction_pass": 0.2,
+    "mean_words": 116.33333333333333
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğrafın birbirine bağlı olduğunu ve birbirine bağlı olduğunu gösteren bir fotoğraf diliminde belirlenir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı olduğunu gösteren fotoğraf, birbirine bağlı olduğunu gösteren fotoğraf olarak bilinir. Farklı fotoğrafın birbirine bağlı",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.797
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri Karadeniz Bölgesi'dir. Bu bölgede 1000 yıl boyunca Osmanlı İmparatorluğu'nun başkenti olan Konya, 1930'li yıllarda Türkiye Cumhuriyeti'nin başkenti olan Ankara, 1960'li yıllarda Türkiye'nin başkenti olan İstanbul, 1990'li yıllarda Türkiye'nin başkenti olan Ankara, 2000'li yıllarda Türkiye'nin başkenti olan Ankara, 2010'li yıllarda Türkiye'nin başkenti olan Ankara, 2011'li yıllarda Türkiye'nin başkenti olan Ankara, 2012'li yıllarda Türkiye'nin başkenti olan Ankara, 2013'li yıllarda Türkiye'nin başkenti olan Ankara, 2014'li yıllarda Türkiye'nin başkenti olan Ankara, 2015'li yıllarda Türkiye'nin başkenti olan Ankara, 2016'li yıllarda Türkiye'nin başkenti olan Ankara, 2017'li yıllarda Türkiye'nin başkenti olan Ankara,",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.221
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. 1881 yılında Osmanlı İmparatorluğu'nun sonuna kadar 1938'te İstanbul'da hüküm süren bu Cumhuriyet, 1923'te Türkiye Cumhuriyeti'nin kurulmasıyla birlikte Türkiye'nin başkenti İstanbul'da kurulmuştur. Atatürk, 1923'te İstanbul'da Cumhuriyet'in başkenti olarak kurulmasına ve 1938'te İstanbul'da Cumhuriyet'in başkenti olarak kurulmasına yol açmıştır. Atatürk, Türkiye Cumhuriyeti'nin kurucusu olarak bilinen ve Türkiye'nin ilk Cumhuriyet Cumhuriyet Başkanı olarak görev yapmıştır. Atatürk, 1923'te İstanbul'da Cumhuriyet'in başkenti olarak kurulmasına ve 1938'te İstanbul'da Cumhuriyet'in başkenti olarak kurulmasına yol açmıştır. Atatürk, Türkiye Cumhuriyeti'nin kurucusu olarak bilinen ve Türkiye'nin ilk",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.301
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir yıldızın veya bir gökyüzün bir yanına yayıldığından sonra, yıldızın veya gökyüzü, yani bir yıldızın veya gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gökyüzü, yani bir gökyüzüne yayılan bir yıldızın veya gökyüzüne yayılan bir gö",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.752
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bir bilgisayarın işlemcisi (CPU) genellikle bir elektronik bir sistem olarak tanımlanır. Bu sistem, bilgisayarın herhangi bir işlem yapması için gereken herhangi bir işlem yapma ve işlem yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma işlemi yapma",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.774
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için basit bir tarif verir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yapmak için 100 TL'den fazla maliyet almak gerekir. Evde ekmek yap",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.816
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için bir dizi yöntemler bulunmaktadır. Bu yöntemler arasında biraz sıkça kullanılmaktadır. Örneğin, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içeceklerin azaltılması, bir yemek veya bir türün içeriğindeki içe",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.744
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine bakmak için, bir kışın ev bitkilerine nasıl bakılır? Kışın ev bitk",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.891
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda\nSonbahar, bir yılın sonunda\nBu yılın sonunda",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.936
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşünü, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi gösterir. Bu durum, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi anlamamızı sağlar. Kaybolan bir kedinin evine dönüşümü, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi gösterir. Bu durum, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi anlamamızı sağlar.\n\nKaybolan bir kedinin evine dönüşümü, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi gösterir. Bu durum, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi anlamamızı sağlar. Kaybolan bir kedinin evine dönüşümü, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğimizi gösterir. Bu durum, insanın yaşam tarzını ve yaşam tarzını değiştirebile",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.725
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Bilgisayarların insan zekası ile ilgili.<quote>\nBilgisayarların insan zekası, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.<quote>\nBilgisayarların insan zekası ile ilgili.<quote>\nBilgisayarların insan zekası, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.<quote>\nBilgisayarların insan zekası ile ilgili.<quote>\nBilgisayarların insan zekası, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanı",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.582
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim. Bu cümle, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. İngilizce, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde ifade edilir. Bu cümle, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. Bu cümle, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. Bu cümle, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. Bu cümle, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. Bu cümle, \"Yarın sabah\" ve \"kütüphaneye gideceğim\" şeklinde bir şekilde ifade edilir. Bu cümle, \"Yarın sabah\" ve \"küt",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.727
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi. Herkez bu konuda birşey söylemek istiyordu ama",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.904
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Aşk ve Hizmetler: Sağlıklı yaşam için tam olarak 3 öneri vardır; aşk ve hizmetler. Bu, insanın yaşam tarzını ve yaşam tarzını şekillendirmek için gereken bir adımdır. İnsanlar, hizmetlerine ve aşklerine uygun bir şekilde çalışmak ve bu alandaki hizmetlerinizi kullanmak için, hizmetlerinizi ve aşklerinizi kullanmak için tam olarak 3 öneri yapmamalıdır. Bu, insanın yaşam tarzını ve yaşam tarzını şekillendirmek için gereken bir adımdır.\n\n2. Aşk ve Hizmetler: Sağlıklı yaşam için tam olarak 3 öneri vardır; aşk ve hizmetler. Bu, insanın yaşam tarzını ve yaşam tarzını şekillendirmek için gereken bir adımdır. İnsanlar, hizmetlerine ve aşklerine uygun bir şekilde çalışmak ve bu alandaki hizmetlerinizi kullanmak için, hizmetlerinizi ve aşklerinizi kullanmak için tam olarak",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.509,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver. Bu cümlede düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından ve nasıl yapıldığından belirlenmiştir. Bu nedenle, düzenli uyum, bir şeyin nasıl yapıldığından",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.765,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "İstanbul, Türkiye'nin en büyük şehirlerinden biridir ve tarihi ve kültürel zenginlikleri ile bilinir. İstanbul'u en fazla 20 kelimeyle anlatmak mümkün olabilir. Ancak, bu durum genellikle daha çok 10-15 kelimeye sahiptir. Her kelime, İstanbul'u nasıl nasıl görüyorsa da farklı bir şekilde anlatabilir. \n\n1. İstanbul: İstanbul, Türkiye'nin en büyük şehirlerinden biridir ve tarihi ve kültürel zenginlikleri ile bilinir. İstanbul, tarihi ve kültürel zenginlikleriyle bilinir. İstanbul, tarihi ve kültürel zenginlikleriyle bilinir.\n\n2. İstanbul'un Ege Bölgesi: İstanbul, Ege Bölgesi'ne ev sahipliği yapar. İstanbul, Ege Bölgesi'ne ev sahipliği yapar.\n\n3. İstanbul'un Konya Bölgesi: İstanbul, Konya Bölgesi'ne ev sahipliği yapar. İstanbul, Konya Bölges",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.202,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük maddeleri olan İstanbul, aynı zamanda dünyanın en eski ve en büyük şehri olup, tarihi 4000 yıl boyunca Osmanlı İmparatorluğu'nun kralı olan Sultan Süleyman tarafından 19 Mayıs 1453'te kurulmuş ve 19 Mayıs 1923'te İstanbul Büyükşehir Belediyesi olarak kabul edilmiştir.\n\n2. Ankara: Türkiye'nin en büyük şehri ve en büyük maddeleri olan Ankara, tarihi 4000 yıl boyunca Osmanlı İmparatorluğu'nun kralı olan Sultan Süleyman tarafından 19 Mayıs 1453'te kurulmuş ve 19 Mayıs 1923'te Ankara Büyükşehir Belediyesi olarak kabul edilmiştir.\n\n3. İzmir: Türkiye'nin en büyük şehri ve en büyük maddeleri olan İzmir, tarihi 4000 yıl boyunca Osmanlı İmparatorluğu'nun kralı olan Sultan Süleyman tarafından 19 Mayıs 1453'te",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.383,
+      "check_passed": false
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe ona 2 elma yiyor. Ayşe ona 4 elma veriyor. Ayşe on",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.904
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "100 km 3 saat giderse 200 km 6 saat giderse 300 km 9 saat giderse 400 km 12 saat giderse 500 km 15 saat giderse 600 km 18 saat giderse 700 km 21 saat giderse 800 km 24 saat giderse 900 km 27 saat giderse 1000 km 30 saat giderse 1100 km 33 saat giderse 1200 km 36 saat giderse 1300 km 39 saat giderse 1400 km 42 saat giderse 1500 km 45 saat giderse 1600 km 48 saat giderse 1700 km 51 saat giderse 1800 km 54 saat giderse 1900 km 57 saat giderse 2000 km 60 saat giderse 2100 km 63",
+      "finished": false,
+      "detected_lang": "?",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. 1999 census data shows that the population of Canberra is 2.4 million. 2011 census data shows that the population of Canberra is 2.5 million. 2016 census data shows that the population of Canberra is 2.6 million. 2020 census data shows that the population of Canberra is 2.7 million. 2021 census data shows that the population of Canberra is 2.8 million. 2022 census data shows that the population of Canberra is 2.9 million. 2023 census data shows that the population of Canberra is 3.0 million. 2024 census data shows that the population of Canberra is 3.1 million. 2025 census data shows that the population of Canberra is 3.2 million. 2026 census data shows that the population of Canberra is 3.3 million. 2027 census data shows that the population of Canberra is 3.4 million. 2028 census data shows that the population of Canberra is 3.5 million. 2029 census data shows that",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.441
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine is a small piece of a living organism, usually a virus or bacteria, that is used to stimulate the immune system in the body. When the immune system recognizes the vaccine as a foreign invader, it produces antibodies to fight off the infection. Over time, the body will remember the specific type of vaccine and be able to fight off future infections with that specific virus or bacteria. So, a vaccine is a way to protect the body from getting sick by stimulating the immune system to fight off a specific pathogen. \n\nExplain in simple terms how a vaccine works. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2023. 2",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.154
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast and blue canvas,\nA mirror of the sky, a mirror of the sea.\nIts depths, its depths, its depths,\nA world of mystery, a world of wonder.\nIts waves, their waves, their waves,\nA symphony of sound, a symphony of light.\nIts colors, its colors, its colors,\nA rainbow of hues, a rainbow of light.\nIts depths, its depths, its depths,\nA world of mystery, a world of wonder.\nAnd when the tide comes in, and the tide comes in,\nThe ocean, the ocean, the ocean,\nWill be a place of peace, a place of peace. ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.595
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice, Practice, Practice: The most important thing when learning a new language is to practice it as much as possible. The more you use it, the more comfortable it will become. You can do this by listening to the language, reading it, watching videos or listening to podcasts.\n\n2. Use the Language: Learning a new language is not just about listening and reading. You also need to use it. This means speaking with native speakers, watching movies or TV shows in the language, and using online language learning tools.\n\n3. Be Patient: Learning a new language takes time and effort. Don't get discouraged if you make mistakes or encounter difficulties. The key is to keep practicing and keep learning. And don't be afraid to ask for help if you need it. Bu tiplerde, bir dizi tip olarak belirtiler bulunuyor. Bu tiplerde, bir dizi tip olarak belirtiler bulunuyor. Bu tiplerde, bir dizi tip olarak belirtiler bulunuyor. Bu tiplerde, bir dizi tip olarak belirtiler bulunuyor. Bu tiplerde, bir dizi tip olarak belirtiler bulunuyor. Bu tiplerde, bir dizi tip",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.207,
+      "check_passed": true
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 = 4. 4. 10 - 4 = 6. 6. 10 - 6 =",
+      "finished": false,
+      "detected_lang": "?",
+      "repetition": 0.897
+    }
+  ],
+  "eval_seconds": 90.9
+}

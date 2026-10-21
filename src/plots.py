@@ -66,13 +66,23 @@ def plot_curves(train: dict, out: Path):
     fig, axes = plt.subplots(2, 2, figsize=(11, 7.5), sharey=True, facecolor=SURFACE)
     for ax, (title, exps) in zip(axes.flat, PANELS):
         style(ax, title)
+        ends = []
         for exp, color in exps + [(REF, REF_COLOR)]:
             if exp not in train:
                 continue
             steps, losses = zip(*train[exp]["val_loss"])
             ax.plot(steps, losses, color=color, linewidth=2, label=NAMES[exp] + (" (referans)" if exp == REF else ""),
                     linestyle="--" if exp == REF else "-")
-            ax.annotate(f"{losses[-1]:.2f}", (steps[-1], losses[-1]), xytext=(4, 0),
+            ends.append((losses[-1], steps[-1]))
+        # Son değer etiketleri: birbirine çok yakın olanları dikey olarak ayır
+        ends.sort(reverse=True)
+        for i, (loss, step) in enumerate(ends):
+            dy = 0
+            if i > 0 and ends[i - 1][0] - loss < 0.05:
+                dy = -5
+            if i + 1 < len(ends) and loss - ends[i + 1][0] < 0.05:
+                dy = 5
+            ax.annotate(f"{loss:.2f}", (step, loss), xytext=(4, dy),
                         textcoords="offset points", va="center", fontsize=8, color=INK2)
         ax.legend(frameon=False, fontsize=9, labelcolor=INK2)
         ax.set_xlabel("optimizer adımı", fontsize=9, color=INK2)
@@ -84,13 +94,29 @@ def plot_curves(train: dict, out: Path):
     plt.close(fig)
 
 
-def scatter_labeled(ax, xs, ys, labels):
+R, L = "left", "right"  # etiket noktanın sağında (R) veya solunda (L): metin hizası
+
+# Noktalar birbirine çok yakın olduğu için etiket konumları elle seçildi: (dx, dy, hiza) punto
+OFFSETS = {
+    "params": {"lora_attn_r16": (-6, 4, L), "lora_all_r4": (-6, -4, L), "lora_lower_r16": (0, 8, "center"),
+               "lora_upper_r16": (0, -15, "center"), "lora_mlp_r16": (-6, -4, L), "lora_all_r16": (6, -4, R),
+               "full_ft": (-6, 4, L)},
+    "en_ppl": {"lora_attn_r16": (-6, 4, L), "lora_lower_r16": (-6, -10, L), "lora_upper_r16": (0, 8, "center"),
+               "lora_all_r4": (6, -8, R), "lora_mlp_r16": (6, -10, R), "full_ft": (-6, 4, L)},
+    "arc_easy": {"lora_mlp_r16": (-6, 4, L), "lora_all_r16": (6, -10, R), "lora_all_r4": (6, -3, R),
+                 "lora_lower_r16": (-6, -3, L), "lora_attn_r49": (6, -6, R), "full_ft": (-6, 4, L)},
+}
+
+
+def scatter_labeled(ax, xs, ys, exps, offsets: dict):
     # eğitimsiz base gri: diğer noktaların "nereden geldiği"
-    colors = [REF_COLOR if lab == NAMES["base"] else C1 for lab in labels]
+    colors = [REF_COLOR if e == "base" else C1 for e in exps]
     ax.scatter(xs, ys, s=60, color=colors, edgecolor=SURFACE, linewidth=2, zorder=3)
     ax.ticklabel_format(axis="y", useOffset=False, style="plain")
-    for x, y, lab in zip(xs, ys, labels):
-        ax.annotate(lab, (x, y), xytext=(6, 4), textcoords="offset points", fontsize=8, color=INK2)
+    for x, y, e in zip(xs, ys, exps):
+        dx, dy, ha = offsets.get(e, (6, 4, R))
+        ax.annotate(NAMES[e], (x, y), xytext=(dx, dy), textcoords="offset points",
+                    fontsize=8, color=INK2, ha=ha, va="center" if dy in (-4, -3, 0) else "baseline")
 
 
 def plot_params(train: dict, ev: dict, out: Path):
@@ -99,14 +125,15 @@ def plot_params(train: dict, ev: dict, out: Path):
     style(ax, "Türkçe test kaybı - eğitilen parametre sayısı")
     xs = [train[e]["trainable_params"] / 1e6 for e in exps]
     ys = [ev[e]["test_loss"] for e in exps]
-    scatter_labeled(ax, xs, ys, [NAMES[e] for e in exps])
+    ax.set_xscale("log")
+    ax.set_xlabel("eğitilen parametre (milyon, log ölçek)", fontsize=9, color=INK2)
+    ax.set_ylabel("Türkçe test loss", fontsize=9, color=INK2)
     if "base" in ev:
         ax.axhline(ev["base"]["test_loss"], color=INK2, linewidth=1, linestyle="--")
         ax.annotate("eğitimsiz base", (min(xs), ev["base"]["test_loss"]), xytext=(0, 4),
                     textcoords="offset points", fontsize=8, color=INK2)
-    ax.set_xscale("log")
-    ax.set_xlabel("eğitilen parametre (milyon, log ölçek)", fontsize=9, color=INK2)
-    ax.set_ylabel("Türkçe test loss", fontsize=9, color=INK2)
+    ax.set_xlim(min(xs) / 2.2, max(xs) * 2.2)  # sol/sağ etiketlere yer
+    scatter_labeled(ax, xs, ys, exps, OFFSETS["params"])
     fig.tight_layout()
     fig.savefig(out, dpi=150, facecolor=SURFACE)
     plt.close(fig)
@@ -122,10 +149,17 @@ def plot_forgetting(ev: dict, out: Path):
         style(ax, title)
         xs = [ev[e]["test_loss"] for e in exps]
         ys = [ev[e][key] for e in exps]
-        scatter_labeled(ax, xs, ys, [NAMES[e] for e in exps])
+        if key == "arc_easy" and "base" in ev:
+            # 500 soruda ölçüm gürültüsü: base etrafında %95 güven bandı (±1.96 standart hata)
+            p, n = ev["base"]["arc_easy"], 500
+            se = (p * (1 - p) / n) ** 0.5
+            ax.axhspan(p - 1.96 * se, p + 1.96 * se, color=GRID, alpha=0.6, zorder=0)
+            ax.annotate("base ± ölçüm gürültüsü (%95)", (max(xs), p + 1.96 * se), xytext=(0, -10),
+                        textcoords="offset points", fontsize=8, color=INK2, ha="left")
         ax.invert_xaxis()  # sağa gittikçe Türkçe daha iyi
         ax.set_xlabel("Türkçe test loss (sağa doğru daha iyi)", fontsize=9, color=INK2)
         ax.set_ylabel(ylabel, fontsize=9, color=INK2)
+        scatter_labeled(ax, xs, ys, exps, OFFSETS[key])
     fig.tight_layout()
     fig.savefig(out, dpi=150, facecolor=SURFACE)
     plt.close(fig)

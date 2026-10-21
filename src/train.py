@@ -69,7 +69,7 @@ def set_seed(seed: int) -> None:
 # ---------------------------------------------------------------------------
 # Model: LoRA veya full
 # ---------------------------------------------------------------------------
-def build_model(args, exp: dict):
+def build_model(args, exp: dict, chat_token_ids: list[int]):
     # Ağırlıklar fp32 yüklenir; hız için ileri/geri geçişte autocast (fp16/bf16) kullanılır.
     model = AutoModelForCausalLM.from_pretrained(args.model, dtype=torch.float32)
     model.config.use_cache = False  # eğitimde KV cache gereksiz
@@ -86,6 +86,11 @@ def build_model(args, exp: dict):
             target_modules=exp["modules"],      # hangi lineer katmanlar: q_proj, gate_proj, ...
             layers_to_transform=exp["layers"],  # hangi transformer katmanları: [0..11] gibi
             layers_pattern="layers" if exp["layers"] else None,
+            # Qwen2.5 base'de <|im_start|> ve <|im_end|> embedding satırları eğitilmemiş:
+            # ~290 kullanılmayan token'ın satırıyla birebir aynı. Embedding dondurulursa model
+            # <|im_end|>'i bu ikizlerden ayıramaz ve cevabı hiç bitiremez. Sadece bu 2 satırı
+            # eğitiyoruz (+1792 parametre); lm_head embedding'e bağlı olduğu için çıkışta da etkili.
+            trainable_token_indices=chat_token_ids,
             task_type="CAUSAL_LM",
         )
         model = get_peft_model(model, config)  # base ağırlıkları dondurur, A/B matrislerini ekler
@@ -145,7 +150,8 @@ def main():
     val_loader = torch.utils.data.DataLoader(
         val_ds, batch_size=args.batch_size, collate_fn=collate)
 
-    model, n_trainable = build_model(args, exp)
+    chat_token_ids = tokenizer.convert_tokens_to_ids(["<|im_start|>", "<|im_end|>"])
+    model, n_trainable = build_model(args, exp, chat_token_ids)
     model.to(device)
 
     params = [p for p in model.parameters() if p.requires_grad]

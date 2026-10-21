@@ -54,5 +54,5 @@ Yeni notebook, **GPU T4 x2** ve **Internet On**. Tek hücre:
 Değerlendirme `eval_bundle.zip` üretir; yerelde grafikler:
 
 ```bash
-python src/plots.py --bundle results/bundle_seed42
+python src/plots.py --bundle results/bundle_seed42  # v1 arşivi: results/v1_frozen_chat_tokens/
 ```

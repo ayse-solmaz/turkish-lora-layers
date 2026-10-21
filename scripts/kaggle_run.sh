@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Kaggle'da her şeyi tek komutla çalıştırır: kurulum, veri, 9 deney, özet.
+# Kaggle'da her şeyi tek komutla çalıştırır: kurulum, veri, 9 deney, özet, değerlendirme.
 # Kaggle notebook hücresine yazılacak tek şey:
 #   !git clone https://github.com/ayse-solmaz/turkish-lora-layers.git && cd turkish-lora-layers && bash scripts/kaggle_run.sh
 SEED=${1:-42}
@@ -51,3 +51,6 @@ for loss, exp, params, mins, mem in sorted(rows):
 if not rows:
     print("Hiç deney tamamlanmadı; yukarıdaki loga bak.")
 EOF
+
+# Eğitim bitti: aynı notebook'ta değerlendirmeyi de çalıştır (~10 dk), eval_bundle.zip üretir
+RUNS_DIR="outputs/seed$SEED" bash scripts/kaggle_eval.sh "$SEED"

@@ -1,0 +1,258 @@
+{
+  "exp": "full_ft",
+  "test_loss": 2.7426283707802472,
+  "en_ppl": 17.250810908256668,
+  "arc_easy": 0.646,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 0.8,
+    "mean_repetition": 0.22454166666666667,
+    "finished_rate": 0.75,
+    "instruction_pass": 0.6,
+    "mean_words": 57.083333333333336
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğrafın içindeki her noktada, her çerçeve ve her çerçeve boyutu üzerindeki fotoğrafın birbirine bakma ve birleştirilmesi anlamına gelir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri Kapadokya'dır. Kapadokya'nın en önemli özelliği, yer altı şehirleri ve yer altı kestiğidir. Kapadokya'nın en uzun nehirin 13 km uzunluğu ve 10000 metre yüksekliği ile bilinir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 19 Mayıs 1881'de Selanik'te doğdu. Askeri eğitimden sonra milli bir eğitim aldı ve 1923'te Ankara'da başlattığı ilk Türk devleti olan Türkiye Cumhuriyeti'nin kurucusu oldu. Atatürk, modern Türkiye'nin temellerini atmış ve 1934'te Türkiye'deki ilk cumhurbaşkanı oldu. Atatürk, \"Cumhuriyet\" kelimesinin kullanılmasıyla \"Cumhuriyetli\" anılmaya başladı. Atatürk, \"Cumhuriyet\" kelimesinin kullanılmasıyla \"Cumhuriyetli\" anılmaya başladı. Atatürk, \"Cumhuriyet\" kelimesinin kullanılmasıyla \"Cumhuriyetli\" anılmaya başladı. Atatürk, \"Cumhuriyet\" kelimesinin kullanılmasıyla \"Cumhuriyetli\" anılmaya başladı. Atatürk, \"Cumhuriyet\" kelimesinin kullanılmasıyla \"Cumhuriyetli\" anılmaya başladı. Atatürk, \"Cumhuriyet\" kelimesinin kullanılmasıyla \"Cumhuriyetli\" anılmaya başladı. Atatürk, \"Cumhuriyet\" kelimesinin",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.438
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir miktar artışa dayanır. Bu artış, ekonomik, sosyal ve politik değişikliklerin bir sonucudur. Enflasyon, ekonomik büyümeyi ve ekonomik büyümeyi hızlandırır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) bilgisayarın herhangi bir işlemi gerçekleştiren ve herhangi bir işlem için çalıştırılacak olan bir yapıdır. Bilgisayarın herhangi bir işlemi gerçekleştiren ve herhangi bir işlem için çalıştırılacak olan bir yapıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.357
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için basit bir tarif verir. Evde ekmek yapmak için bir miktar şeker tüketmek gerekir. Evde ekmek yapmak için bir miktar su tüketmek gerekir. Evde ekmek yapmak için bir miktar tuz tüketmek gerekir. Evde ekmek yapmak için bir miktar kaşığı yağ tüketmek gerekir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.333
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için en iyi yöntemlerden biri de eğitimdir. Stresi azaltmak için eğitim yapmak için en iyi bir yöntemdir. Stresi azaltmak için eğitim yapmak için en iyi bir yöntemdir. Stresi azaltmak için eğitim yapmak için en iyi bir yöntemdir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.472
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakmak için en uygun yöntemlerden biri, evin içi kışın evinizi keşfetmeyi isteyen kişiler tarafından yapılan bir testdir. Bu testdir, evinizi keşfetmeyen kişiler tarafından yapılan bir testdir. Bu testdir, evinizi keşfetmeyen kişiler tarafından yapılan bir testdir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.314
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, güneşin güzellikini görebilir,\nKışla dolu bir gün, güneşin güzellikini görebilir.\nGörevleri tamamladıktan sonra,\nGörevleri tamamladıktan sonra.\n\nSonbahar, güneşin güzellikini görebilir,\nKışla dolu bir gün, güneşin güzellikini görebilir.\nGörevleri tamamladıktan sonra,\nGörevleri tamamladıktan sonra.\n\nSonbahar, güneşin güzellikini görebilir,\nKışla dolu bir gün, güneşin güzellikini görebilir.\nGörevleri tamamladıktan sonra,\nGörevleri tamamladıktan sonra.\n\nSonbahar, güneşin güzellikini görebilir,\nKışla dolu bir gün, güneşin güzellikini görebilir.\nGörevleri tamamladıktan sonra,\nGörevleri tamamladıktan sonra.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.738
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşü, bu durumun insanları bir araya getirdiği bir dizi sorunun bir parçasıdır. Bu sorunların en önemli nedenlerinden biri, kaybolan kedinin içine girmesi ve bu durumun evine dönüşünü engelleyici bir faktör olmaktadır.\n\nKaybolan kedinin evine dönüşü, insanları bir araya getirdiği bir dizi sorunun bir parçasıdır. İlk olarak, kaybolan kedinin içine girebileceği sorununun yanı sıra, kaybolan kedinin içine girebileceği durumda, insanlar genellikle bir sorunla karşı karşıya kalabilirler. Bu durum, insanların hayatlarını ve yaşam biçimlerini değiştirebilir.\n\nKaybolan kedinin evine dönüşü, insanları bir araya getirdiği bir dizi sorunun bir parçasıdır. Bu sorunların en önemli nedenlerinden biri, kaybolan kedinin içine girmesi ve bu durumun evine dönüşünü engelleyici bir faktör olmaktadır.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.34
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabahı, kütüphaneye gideceğim.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Kalp ve damar sağlığını korumak için: Kalp sağlığını korumak için sağlıklı bir kalp içeriği almanız, kalp sağlığı için en sık kullanılan ilaçlardır. Ayrıca, kalp sağlığı için en önemli ilaçlardan biri de damar sağlığı için en sık kullanılan ilaçlardır. Bu ilaçlar arasında vitamin E, vitamin B12, vitamin C ve mineraller bulunur.\n\n2. Çeşitli ilaçların kullanımını azaltmak için: Çeşitli ilaçların kullanımını azaltmak için, ilaçların en sık kullanıldığı yerlerden uzaklaşmanız ve ilaçların tüketimi azaltmanız önemlidir. Bu, kalp ve damar sağlığını korumak için daha fazla etkileşim yaratır.\n\n3. Kalp ve damar sağlığını korumak için: Kalp sağlığını korumak için sağlıklı bir kalp içeriği almanız, kalp sağlığı için en sık kullanılan ilaçlardır. Ayrıca, kalp sağlığı için en önemli ilaçlardan biri de damar sağlığı için en sık kullanılan ilaçlardır. Bu ilaçlar arasında vitamin E, vitamin B12, vitamin C ve mineraller bulunur",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.394,
+      "check_passed": true
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Bu sorulara yanıt vermek için en uygun cümle yapısı şu şekildedir: \"Buna göre düzenli uyum yapmak sadece tek bir cümle ile cevap verilebilir.\"",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul'un Tarihi\n2. İstanbul'un Kültürel Zenginlikleri\n3. İstanbul'un Tarihî ve Kültürel Mirası\n4. İstanbul'un Tarihi ve Kültürel Mirası\n5. İstanbul'un Tarihi ve Kültürel Mirası\n6. İstanbul'un Tarihi ve Kültürel Mirası\n7. İstanbul'un Tarihi ve Kültürel Mirası\n8. İstanbul'un Tarihi ve Kültürel Mirası\n9. İstanbul'un Tarihi ve Kültürel Mirası\n10. İstanbul'un Tarihi ve Kültürel Mirası\n11. İstanbul'un Tarihi ve Kültürel Mirası\n12. İstanbul'un Tarihi ve Kültürel Mirası\n13. İstanbul'un Tarihi ve Kültürel Mirası\n14. İstanbul'un Tarihi ve Kültürel Mirası\n15. İstanbul'un Tarihi ve Kültürel Mirası\n16. İstanbul'un Tarihi ve Kültürel Mirası\n17. İstanbul'un Tarihi ve Kültürel Mirası\n1",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.274,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük şehri merkezi olarak kabul edilir. Tarihi ve kültürel zenginlikleriyle bilinen İstanbul, aynı zamanda dünyanın en zengin turistik destinasyonlarından biridir.\n\n2. Ankara: Türkiye'nin başkenti olan Ankara, tarihi ve kültürel zenginlikleriyle bilinir. Ayrıca Ankara, Türkiye'nin en büyük şehri merkezi olarak da kabul edilir.\n\n3. İzmir: İzmir, Türkiye'nin ikinci en büyük şehri ve ikinci en büyük şehri merkezi olarak kabul edilir. İzmir, tarihi ve kültürel zenginlikleriyle bilinir.\n\n4. Ankara: Türkiye'nin başkenti olan Ankara, tarihi ve kültürel zenginlikleriyle bilinir. Tarihi ve kültürel zenginlikleriyle bilinen Ankara, aynı zamanda dünyanın en zengin turistik destinasyonlarından biridir.\n\n5. İzmir: İzmir, Türkiye'nin ikinci en büyük şehri ve ikinci en büyük şehri mer",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.312,
+      "check_passed": true
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe ona 4+2 = 6 elma veriyor. Ali'nin kaç elması kaldı? 6-3 = 3. Ali 3 elması kaldı.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "80 km hızla 3 saat giderse 450 kilometre yol alır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. Canberra is the federal capital of Australia. Canberra is the capital of the Australian Capital Territory (ACT) and the federal government of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.5
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine, genellikle adet olarak bilinen bir ilaç veya ilaç teratik etkisi olan bir ilaçtır. Genellikle bir ilaç veya ilaç teratik etkisi olan bir ilaç, bir ülkenin genel sağlık sorunlarına yol açabilir. Bu nedenle, bazı ilaçlar genellikle tedavi edilmelidir.\n\nVaccine, bir ülkenin genel sağlık sorunuyla karşı karşıya olduğunu belirtir. Bu, genellikle bir ülkenin sağlık sistemi üzerindeki durumu belirlemek için kullanılır. Örneğin, bir ülkenin sağlık sisteminin kötüye kapalı olduğuna veya sağlık hizmetlerine erişim eksikliği ile karşı karşıya olduğunu belirtir.\n\nVaccine, bir ülkenin genel sağlık sorunuyla karşı karşıya olduğunu belirtir. Bu, genellikle bir ülkenin sağlık sistemi üzerindeki durumu belirlemek için kullanılır. Örneğin, bir ülkenin sağlık sisteminin kötüye kapalı olduğuna veya sağlık hizmetlerine erişim eksikliği ile karşı karşı",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.357
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast and blue,\nA place where waves crash and crash,\nA world of endless possibilities,\nA place where dreams can be made.\n\nThe sun's rays, a gentle caress,\nA sight to behold, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.56
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice Regularly: The best way to learn a new language is to practice it regularly. Set aside time each day or week to study and practice your language skills.\n\n2. Use Real World Context: Learning a new language can be challenging, but it's important to use real world context. Read books, listen to podcasts, watch TV shows, and talk to native speakers to improve your language skills.\n\n3. Get Feedback: Don't be afraid to ask for feedback from native speakers. They can help you identify areas where you need to improve and provide constructive criticism. You can also join language exchange groups or forums to practice and get feedback from others.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.0,
+      "check_passed": true
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "If I have 10 apples and give away 4, I will have 10 - 4 = 6 apples left.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.0
+    }
+  ],
+  "eval_seconds": 104.2
+}
