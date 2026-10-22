@@ -1,0 +1,258 @@
+{
+  "exp": "lora_upper_r16",
+  "test_loss": 3.068327831583123,
+  "en_ppl": 15.522420071119008,
+  "arc_easy": 0.63,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 0.8,
+    "mean_repetition": 0.30783333333333335,
+    "finished_rate": 0.5833333333333334,
+    "instruction_pass": 0.0,
+    "mean_words": 83.625
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf için bir fotoğraf",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.984
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri, Karadeniz Bölgesi'nin güneydoğusunda bulunan Karadeniz'in güneydoğusunda bulunan Karadeniz'de bulunur.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 1871 yılında Osmanlı İmparatorluğu'nun sonuna kadar hüküm süren ve 1923'te sona eren Türk-İslam devletinin başkenti İstanbul'u fethetmiştir. Atatürk, 1923 yılında İstanbul'un başkenti olarak kabul edilmesiyle İstanbul'un Türkiye Cumhuriyeti'nin kurucusu oldu. Atatürk, 1923'te İstanbul'un başkenti olarak kabul edilmesiyle İstanbul'un Türkiye Cumhuriyeti'nin kurucusu oldu. Atatürk, 1923'te İstanbul'un başkenti olarak kabul edilmesiyle İstanbul'un Türkiye Cumhuriyeti'nin kurucusu oldu. Atatürk, 1923'te İstanbul'un başkenti olarak kabul edilmesiyle İstanbul'un Türkiye Cumhuriyeti'nin kurucusu oldu. Atatürk, 1923'te İstanbul'un başkenti olarak kabul edilmesiyle İstanbul'un Türkiye Cumhuriyeti'nin kurucusu oldu. Atatürk, 1923'te İstanbul'un başkenti olarak kab",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.571
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir yandan, bir kişinin hayata uygun bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir şekilde bir",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.963
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bir bilgisayarın işlemcisi (CPU) işe yarar.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için bir tarif vermek gerekir. Evde ekmek yapmak için bir tarif vermek gerekir. Evde ekmek yapmak için bir tarif vermek gerekir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.619
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için bir dizi olumlu ve düzenli bir şekilde yapabilirsiniz. Bu, bir dizi olumlu ve düzenli bir şekilde yapabilirsiniz.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.294
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakılır, bu durumda evinizi kışın ev bitkilerine göre değiştirebilir. Bu durumda evinizi kışın ev bitkilerine göre değiştirebilir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.235
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "1. Sonbahar, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\n\n2. Sonbahar, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\n\n3. Sonbahar, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\n\n4. Sonbahar, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada\nDüzgün bir dünyada, kıyafetli bir dünyada",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.775
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşü, insanın yaşamını ve yaşam tarzını değiştirebileceğini gösterir. Bu süreç, insanın sosyal, politik ve kültürel yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüşü, insanın sosyal yapısını şekillendireceğini gösterir. Kaybolan kedinin evine dönüş",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.674
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Bilgisayarların insan zekasını gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Aşk ve Savaşı: Sağlıklı yaşam için en önemlidir bir şeye sahip olmak. Bu, insanın yaşamını, yaşam tarzını ve yaşam tarzınıza bağlı olarak şekillenir. İnsanlar, yaşam tarzınıza bağlı olarak yaşam tarzınıza sahip olmak için, aşk ve savaşı yapmaları gerekmektedir. Bu, insanın yaşamını, yaşam tarzını ve yaşam tarzınıza bağlı olarak şekillenir. İnsanlar, yaşam tarzınıza bağlı olarak yaşam tarzınıza sahip olmak için, aşk ve savaşı yapmaları gerekmektedir.\n\n2. Yüzde ve Savaşı: Sağlıklı yaşam için yüzde ve savaşı da önemlidir. İnsanlar, yaşam tarzınıza bağlı olarak yaşam tarzınıza sahip olmak için, yüzde ve savaşı yapmaları gerekmektedir. Bu, insanın yaşamını, yaşam tarzını ve yaşam tarzınıza bağlı olarak şekillenir. İnsanlar, yaşam tarzınıza bağlı olarak yaşam tarzınıza sa",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.481,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul\n2. İstanbul'da\n3. İstanbul'un\n4. İstanbul'in\n5. İstanbul'da\n6. İstanbul'un\n7. İstanbul'da\n8. İstanbul'un\n9. İstanbul'da\n10. İstanbul'un\n11. İstanbul'da\n12. İstanbul'un\n13. İstanbul'da\n14. İstanbul'un\n15. İstanbul'da\n16. İstanbul'un\n17. İstanbul'da\n18. İstanbul'un\n19. İstanbul'da\n20. İstanbul'un\n21. İstanbul'da\n22. İstanbul'un\n23. İstanbul'da\n24. İstanbul'un\n25. İstanbul'da\n26. İstanbul'un\n27. İstanbul'da\n28. İstanbul'un\n29. İstanbul'da\n30. İstanbul'un\n31. İstanbul'da\n32. İstanbul'un\n33. İstanbul'da\n34. İstanbul'un\n35. İstanbul'da\n36. İstanbul'un\n37. İstanbul'da\n38. İstanbul'un\n39. İstanbul'da\n40. İstanbul'un\n41. İstanbul'da",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük maddeleri olan İstanbul, aynı zamanda dünyanın en eski ve en büyük şehri olup, tarihi ve kültürel zenginlikleriyle bilinir. Ayrıca, Türkiye'nin en popüler şehirlerinden biridir ve Türkiye'nin en çok ziyaret edilen şehirlerinden biridir.\n\n2. Ankara: Türkiye'nin en büyük şehri ve en büyük maddeleri olan Ankara, tarihi ve kültürel zenginlikleriyle bilinir. Ayrıca, Türkiye'nin en büyük şehirlerinden biridir ve Türkiye'nin en çok ziyaret eden şehirlerinden biridir.\n\n3. İzmir: Türkiye'nin en büyük şehri ve en büyük maddeleri olan İzmir, tarihi ve kültürel zenginlikleriyle bilinir. Ayrıca, Türkiye'nin en büyük şehirlerinden biridir ve Türkiye'nin en büyük şehirlerinden biridir.\n\n4. Ankara: Türkiye'nin en büyük şehri ve en büyük maddeleri olan Ankara, tarihi ve kültürel",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.389,
+      "check_passed": false
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı? Ayşe ona 4 elma veriyor.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.048
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "3 saat giderse 80 km hızla 12 kilometre alır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. Canberra is the capital of the Australian Capital Territory (ACT), which is located in the north-east of the country. Canberra is also the seat of the Australian Government and the Australian Parliament. Canberra is located in the state of Victoria in the southeast of the country. Canberra is the largest city in Australia and is also the capital of the ACT. Canberra is also the largest city in the country. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia. Canberra is also the largest city in Australia.",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.68
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine is a small piece of a live, weakened or dead pathogen (bacteria, virus, or parasite) that stimulates the immune system to produce antibodies. These antibodies can then be used to protect the body from future infections. Vaccines are usually given as injections or oral drops, and they are usually given to people who are at high risk of getting a disease, such as children, the elderly, or people with weakened immune systems. Vaccines are also used to prevent certain diseases, such as measles, mumps, rubella, and chickenpox. Vaccines are usually given to children before they are fully vaccinated, and they are also given to people who are at high risk of getting a disease, such as those who work in high-risk jobs or live in areas with high rates of disease transmission. Vaccines are also used to prevent certain diseases, such as measles, mumps, rubella, and chickenpox. Vaccines are usually given to children before they are fully vaccinated, and they are also given to people who are at high risk of getting a disease, such as those who work in high-risk jobs or live in areas with high rates of disease transmission. Vaccines are usually given to children before they are fully vaccinated, and they are also",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.408
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "Oceania's vast expanse,\nA canvas of blue and green,\nA mirror of the sun's rays,\nA canvas of endless depth.\n\nThe ocean's waves, so fierce and bold,\nA force to be reckoned with,\nA force that can't be stopped,\nA force that can't be stopped.\n\nThe ocean's depths, so deep and dark,\nA place of mystery and mystery,\nA place of life and death,\nA place of life and death.\n\nThe ocean's creatures, so diverse and fierce,\nA symphony of life and life,\nA symphony of life and life,\nA symphony of life and life.\n\nThe ocean's beauty, so grand and grand,\nA canvas of nature's best,\nA canvas of nature's best,\nA canvas of nature's best.\n\nOceania's ocean, so vast and vast,\nA canvas of nature's best,\nA canvas of nature's best,\nA canvas of nature's best.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.222
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice, Practice, Practice: The more you practice speaking and listening, the better you will become. Try to use the language as much as possible in your daily life, and don't be afraid to make mistakes. \n\n2. Use Apps and Tools: There are many apps and tools available that can help you learn a new language. For example, Duolingo, Babbel, and Rosetta Stone are popular language learning apps. \n\n3. Join Language Groups: Joining language groups or forums can be a great way to practice and learn a new language. You can find language groups on social media platforms, language learning websites, or even in your local community. \n\n4. Learn from Native Speakers: Learning from native speakers is a great way to improve your language skills. You can find native speakers on language learning websites, language exchange platforms, or even in your local community. \n\n5. Be Patient and Persistent: Learning a new language takes time and effort. Be patient and persistent, and don't give up if you make mistakes or encounter difficulties. \n\n6. Use Real-Life Context: Real-life context is important when learning a new language. Try to use the language in everyday situations, and don't be afraid to ask for help when you need it.",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.045,
+      "check_passed": false
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "4.",
+      "finished": true,
+      "detected_lang": "?",
+      "repetition": 0.0
+    }
+  ],
+  "eval_seconds": 87.7
+}

@@ -1,0 +1,258 @@
+{
+  "exp": "lora_all_r16",
+  "test_loss": 2.9782758719587084,
+  "en_ppl": 15.618818790598176,
+  "arc_easy": 0.642,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 0.8,
+    "mean_repetition": 0.35125,
+    "finished_rate": 0.4583333333333333,
+    "instruction_pass": 0.2,
+    "mean_words": 75.04166666666667
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğraf için bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın içi bir fotoğrafın",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.953
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri Karadeniz Bölgesi'dir. Bu bölgede 100 kilometre arasında yer alan bu bölgelerde, 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uzanan bölgelerden biri olup, bu bölgede 100 kilometre aralığına kadar uz",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.732
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 1881 yılında Osmanlı İmparatorluğu'nun sonuna kadar 1938 yılında sona ermesiyle birlikte Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. Atatürk, 1923'te İstanbul'da Osmanlı İmparatorluğu'nun ilk Cumhurbaşkanı olarak görev yaptı. 1938'te İstanbul'da Türkiye Cumhuriyeti'nin ilk Cumhurbaşkanı oldu ve 1938 yılında İstanbul'da Türkiye Cumhuriyeti'nin başkenti oldu. Atatürk, 1923'te İstanbul'da Osmanlı İmparatorluğu'nun ilk Cumhurbaşkanı olarak görev yaptı. 1938'te İstanbul'da Türkiye Cumhuriyeti'nin ilk Cumhurbaşkanı oldu ve 1938 yılında İstanbul'da Türkiye Cumhuriyeti'nin başkenti oldu. Atatürk, 1923'te İstanbul'da Osmanlı İmparatorluğu'nun ilk Cumhurbaşkanı olarak görev yaptı.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.416
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan, bir yandan",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.968
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) genellikle bir bilgisayarın en önemli işlevi olarak bilinir. Bilgisayarın işlemcisi, bilgisayarın herhangi bir işlem yapması için bir araç olarak çalışır. Bilgisayarın işlemcisi, bilgisayarın herhangi bir işlem yapması için bir araç olarak çalışır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.281
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için basit bir tarif verir. Evde ekmek yapmak için bir dizi tarif verilir. Bir dizi tarif, evde ekmek yapmak için en az bir dizi tarif içerir. Bir dizi tarif, evde ekmek yapmak için en az bir dizi tarif içerir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.282
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için bir dizi tipik yöntem bulunmaktadır. Bu yöntemlerde en çok kullanılan yöntemler arasında eğlence, eğlenceli yatırımlar, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırımlar, eğlence, eğlenceli yatırı",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.645
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine nasıl bakılır?Kışın ev bitkilerine bakmak için en iyi bir yöntem olarak bir dizi konu ile ilgili bilgiye bakabilirsiniz. Bu konuları bir dizi konu ile birlikte bilgiye aktarabilirsiniz.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.037
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, güneşin güzellikleriyle tanınan bir gündir. \nDüzgün bir güneşin altında, güneşin güneş olarak bilinen bir güneş. \nSonbahar, güneşin güneş olarak bilinen bir güneş. \nSonbahar, güneşin güneş olarak bilinen bir güneş.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.37
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşünü, insanın yaşam tarzını ve yaşam tarzını değiştirebileceğini göstermektedir. Bu durum, insanın yaşam tarzını şekillendirebileceğini ve yaşam tarzını şekillendirebileceğini göstermektedir. Kaybolan bir kedinin evine dönüşü, insanın yaşam tarzını şekillendirebileceğini göstermektedir. Bu durum, insanın yaşam tarzını şekillendirebileceğini ve yaşam tarzını şekillendirebileceğini göstermektedir. Kaybolan bir kedinin evine dönüşü, insanın yaşam tarzını şekillendirebileceğini göstermektedir. Bu durum, insanın yaşam tarzını şekillendirebileceğini ve yaşam tarzını şekillendirebileceğini göstermektedir. Kaybolan bir kedinin evine dönüşü, insanın yaşam tarzını şekillendirebileceğini göstermektedir. Bu durum, insanın yaşam tarzını şekillendirebileceğini ve yaşam",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.63
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Bilgisayarların insan zekasını gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Şu cümledeki yazım hataları düzeltmek için aşağıdaki adımlarla yapabilirsiniz:\n\n1. Herkez bu konuda birşey söylemek istiyordu: Bu hatalı bir adımlardan biri, \"Herkez\" kelimesi kullanmadan önce \"Bu\" kelimesi kullanmaya çalışmanızı sağlayabilirsiniz. Herkez bu konuda birşey söylemek istiyordu, bu hatalı bir adımlardan biri olabilir.\n\n2. Birşey söylemek istiyordu: Bu hatalı bir adımlardan biri, \"Birşey\" kelimesi kullanmadan önce \"Sadece\" kelimesi kullanmaya çalışmanızı sağlayabilirsiniz. Birşey söylemek istiyordu, bu hatalı bir adımlardan biri olabilir.\n\n3. Cezaret edemedi: Bu hatalı bir adımlardan biri, \"Cezaret edemedi\" kelimesi kullanmadan önce \"Cezaret edildi\" kelimesi kullanmaya çalışmanızı sağlay",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.165
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Aşk ve Huzur: Sağlıklı yaşam için en önemlidir bir şey olmayabilirsiniz. Aşk ve huzur, insanlar için en önemli faktörlerden biridir. Aşk, insanlar için yaşamın en önemli değerlerinden biridir. Huzur, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerlerinden biridir. Bu, insanlar için yaşamın en önemli değerler",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.711,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul\n2. Avrupa\n3. Çanakkale\n4. Çanakkale\n5. Çanakkale\n6. Çanakkale\n7. Çanakkale\n8. Çanakkale\n9. Çanakkale\n10. Çanakkale\n11. Çanakkale\n12. Çanakkale\n13. Çanakkale\n14. Çanakkale\n15. Çanakkale\n16. Çanakkale\n17. Çanakkale\n18. Çanakkale\n19. Çanakkale\n20. Çanakkale\n21. Çanakkale\n22. Çanakkale\n23. Çanakkale\n24. Çanakkale\n25. Çanakkale\n26. Çanakkale\n27. Çanakkale\n28. Çanakkale\n29. Çanakkale\n30. Çanakkale\n31. Çanakkale\n32. Çanakkale\n33. Çanakkale\n34. Çan",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük maddelerinden biridir. Ege Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. Ayrıca turistik bir yer olarak da bulunur.\n\n2. Ankara: Karadeniz Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. Ankara'da bulunan Ayasofya, İstanbul'un en önemli turistik destinasyonlarından biridir.\n\n3. İzmir: Ege Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. İzmir, hem yerli hem de yabancı turistlerin en popüler destinasyonlarından biridir.\n\n4. Ankara: Karadeniz Bölgesi'nde yer alan bu şehir, tarihi ve kültürel zenginlikleri ile bilinir. Ankara'da bulunan Ayasofya, İstanbul'un en önemli turistik destinasyonlarından biridir.\n\n5. İzmir: Ege Bölgesi'nde yer alan bu şeh",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.368,
+      "check_passed": true
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe'nin 4 elma, Ali'nin 2 elma yiyor.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "100 km 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat giderse 100 km hızla 3 saat gider",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.922
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "Sydney, Australia'nın en önemli şehri ve merkezi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine is a special medicine that helps your body make its own antibodies (special proteins that fight infections). When you get a vaccine, your body gets a special shot of these antibodies. These antibodies can then fight off the same infection later on. So, a vaccine is like a special medicine that helps your body fight off a disease.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.07
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast and blue,\nA mirror of the sky, a mirror of the sea.\nIts waves, a symphony of sound,\nA mirror of the sun, a mirror of the sky.\nThe ocean, a mirror of the sky,\nA mirror of the sea.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror of the sky.\nA mirror of the sun, a mirror",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.803
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice, Practice, Practice: The most important thing when learning a new language is to practice it as much as possible. The more you use it, the better you will become.\n\n2. Use the Language Daily: Try to use the language as much as possible every day. This will help you to become fluent faster.\n\n3. Listen to the Language: Listen to the language as much as possible. Listen to podcasts, listen to music, watch TV shows, and listen to movies. This will help you to understand the language better and improve your listening skills. \n\n4. Find a Language Partner: Find a language partner who speaks the language you want to learn. This will help you to practice speaking the language and improve your listening and speaking skills. \n\n5. Use Online Resources: There are many online resources available for learning a new language. Websites like Duolingo, Babbel, and Rosetta Stone are great options. \n\n6. Study the Language Grammar: Learning a new language requires learning the grammar. Make sure you understand the grammar rules of the language you are learning. \n\n7. Use a Language Learning App: There are many language learning apps available for both iOS and Android devices. These apps can help you to practice speaking the language and improve your listening",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.077,
+      "check_passed": false
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "If you have 10 apples and give away 4, you will have 10 - 4 = 6 apples left. So, you will have 6 apples left.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.0
+    }
+  ],
+  "eval_seconds": 91.6
+}

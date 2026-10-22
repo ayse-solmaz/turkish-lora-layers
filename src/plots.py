@@ -101,10 +101,10 @@ OFFSETS = {
     "params": {"lora_attn_r16": (-6, 4, L), "lora_all_r4": (-6, -4, L), "lora_lower_r16": (0, 8, "center"),
                "lora_upper_r16": (0, -15, "center"), "lora_mlp_r16": (-6, -4, L), "lora_all_r16": (6, -4, R),
                "full_ft": (-6, 4, L)},
-    "en_ppl": {"lora_attn_r16": (-6, 4, L), "lora_lower_r16": (-6, -10, L), "lora_upper_r16": (0, 8, "center"),
+    "en_ppl": {"lora_attn_r16": (-6, -10, L), "lora_lower_r16": (-6, -10, L), "lora_upper_r16": (-6, 4, L),
                "lora_all_r4": (6, -8, R), "lora_mlp_r16": (6, -10, R), "full_ft": (-6, 4, L)},
-    "arc_easy": {"lora_mlp_r16": (-6, 4, L), "lora_all_r16": (6, -10, R), "lora_all_r4": (6, -3, R),
-                 "lora_lower_r16": (-6, -3, L), "lora_attn_r49": (6, -6, R), "full_ft": (-6, 4, L)},
+    "arc_easy": {"lora_mlp_r16": (-6, 4, L), "lora_all_r16": (6, -10, R), "lora_all_r4": (0, -14, "center"),
+                 "lora_lower_r16": (-6, -3, L), "lora_attn_r49": (-6, 6, L), "full_ft": (-6, 4, L)},
 }
 
 
@@ -165,6 +165,49 @@ def plot_forgetting(ev: dict, out: Path):
     plt.close(fig)
 
 
+def plot_compare(ev_old: dict, ev_new: dict, out: Path):
+    """Düzeltme öncesi (v1) ve sonrası (v2): her deney için iki nokta ve aradaki çizgi."""
+    exps = [e for e in ev_new if e in ev_old and e != "base"]
+    exps.sort(key=lambda e: ev_new[e]["test_loss"], reverse=True)  # en iyi en üstte
+    fig, axes = plt.subplots(1, 2, figsize=(11, 5), sharey=True, facecolor=SURFACE)
+    panels = [
+        (axes[0], lambda r: r["behavior"]["finished_rate"] * 100, "Cevabı kendi bitirme oranı (%)"),
+        (axes[1], lambda r: r["test_loss"], "Türkçe test loss (düşük = iyi)"),
+    ]
+    ys = range(len(exps))
+    for ax, get, title in panels:
+        style(ax, title)
+        ax.grid(axis="y", visible=False)
+        old = [get(ev_old[e]) for e in exps]
+        new = [get(ev_new[e]) for e in exps]
+        ax.hlines(ys, old, new, color=GRID, linewidth=2, zorder=1)
+        ax.scatter(old, ys, s=60, color=REF_COLOR, edgecolor=SURFACE, linewidth=2, zorder=3,
+                   label="v1: sohbet token'ları dondurulmuş")
+        ax.scatter(new, ys, s=60, color=C1, edgecolor=SURFACE, linewidth=2, zorder=3,
+                   label="v2: sohbet token'ları eğitiliyor")
+    axes[1].invert_xaxis()  # sağa doğru daha iyi, sol panelle aynı yön
+    axes[0].set_yticks(list(ys), [NAMES[e] for e in exps], fontsize=9, color=INK2)
+    fig.suptitle("<|im_end|> düzeltmesinin etkisi (sağa doğru daha iyi)", x=0.02, ha="left", fontsize=13, color=INK)
+    fig.legend(*axes[0].get_legend_handles_labels(), frameon=False, fontsize=9, labelcolor=INK2,
+               loc="upper right", ncol=2)
+    fig.tight_layout(rect=(0, 0, 1, 0.95))
+    fig.savefig(out, dpi=150, facecolor=SURFACE)
+    plt.close(fig)
+
+
+def write_compare(ev_old: dict, ev_new: dict, out: Path):
+    exps = sorted((e for e in ev_new if e in ev_old), key=lambda e: ev_new[e]["test_loss"])
+    lines = ["# v1 → v2: <|im_end|> düzeltmesinin etkisi", "",
+             "| deney | TR test loss v1 → v2 | bitirme v1 → v2 | tekrar v1 → v2 |",
+             "|---|---|---|---|"]
+    for e in exps:
+        a, b = ev_old[e], ev_new[e]
+        lines.append(f"| {NAMES[e]} | {a['test_loss']:.3f} → {b['test_loss']:.3f} | "
+                     f"{a['behavior']['finished_rate']:.0%} → {b['behavior']['finished_rate']:.0%} | "
+                     f"{a['behavior']['mean_repetition']:.2f} → {b['behavior']['mean_repetition']:.2f} |")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def write_summary(train: dict, ev: dict, out: Path):
     order = sorted(ev, key=lambda e: ev[e]["test_loss"])
     lines = ["# Sonuç özeti", "",
@@ -201,6 +244,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--bundle", required=True)
     p.add_argument("--out_dir", default="results")
+    p.add_argument("--compare", help="karşılaştırılacak eski bundle (ör. v1)")
     args = p.parse_args()
 
     train, ev = load(Path(args.bundle))
@@ -212,6 +256,10 @@ def main():
         plot_forgetting(ev, out / "figures" / "learning_vs_forgetting.png")
         write_summary(train, ev, out / "summary.md")
         write_samples(ev, out / "samples.md")
+    if args.compare:
+        _, ev_old = load(Path(args.compare))
+        plot_compare(ev_old, ev, out / "figures" / "v1_vs_v2.png")
+        write_compare(ev_old, ev, out / "v1_vs_v2.md")
     print("Yazıldı:", sorted(str(p) for p in out.rglob("*") if p.suffix in (".png", ".md")))
 
 

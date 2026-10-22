@@ -11,3 +11,5 @@ outputs/
 *.safetensors
 *.bin
 wandb/
+kaggle_v*/
+hf_upload/

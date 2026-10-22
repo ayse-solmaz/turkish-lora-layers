@@ -1,0 +1,258 @@
+{
+  "exp": "lora_all_r64",
+  "test_loss": 2.86366613779937,
+  "en_ppl": 17.02197111861949,
+  "arc_easy": 0.626,
+  "behavior": {
+    "tr_answered_in_tr": 0.9444444444444444,
+    "en_answered_in_en": 0.6,
+    "mean_repetition": 0.10941666666666666,
+    "finished_rate": 0.75,
+    "instruction_pass": 0.0,
+    "mean_words": 54.083333333333336
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir görüntüye birbirinden birlikte yansıtan bir görsel deneyimdir. Bir görüntüye photosense olarak adlandırılan bir görsel deneyim, birbirinden birlikte yansıtan bir görsel deneyimdir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.15
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri, İstanbul'da bulunan İstanbul Nehri'nidir. İstanbul Nehri, Türkiye'nin en uzun ve en geniş nehri olup, 125 km uzunluğu ve 10 km genişliği ile bilinir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 1881 yılında Selanik'te doğdu. Anadolu'nun ilk Türk devleti olan Osmanlı İmparatorluğu'nun kurucusu ve ilk Cumhurbaşkanı olarak bilinir. 1923'te Türkiye Cumhuriyeti'nin kurulmasıyla birlikte, 1938'de Türkiye'de ilk cumhurbaşkanı olarak görev yaptı. Atatürk, modern Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. Atatürk'ün hayatı, modern Türkiye'nin temellerini ve gelişimini yansıtır. Atatürk, 20. yüzyılın en önemli devlet liderlerinden biri olarak kabul edilir ve Türkiye'nin modernleşme sürecinde önemli bir rol oynamıştır. Atatürk'ün hayatı, modern Türkiye'nin temellerini ve gelişimini yansıtır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.069
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir miktar artışa dayanır. Bu artış, genellikle ekonomik ve sosyal faktörlerin birleşiminden kaynaklanır. Örneğin, ekonomik bir artış, ekonomik faaliyetlerin artması, işsizlik, işsizlik oranının artması gibi faktörlerin birleşiminden oluşur.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) işlemi yapmak için bir bilgisayarın herhangi bir işlem için bir işlem kodu oluşturur. Bu kod, işlemcisi tarafından bir işlem yapmak için bilgisayarın herhangi bir işlem kodu oluşturur. İşlem cihazının işlemcisi tarafından bir işlem yapmak için bu kodlar oluşturur.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.132
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Ekmek yapmak için en basit bir tarif olan bir dizi kullanabilirsiniz. Bu dizi, bir tür bir ekmek içeriği ve bir tür bir ekmek içi içeriği içerir. Ekmek içeriği, ekmek içi içeriği gibi farklı ekmek içeriği yerine getirilir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.029
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için en iyi yöntemlerden biri de bir dizi düzenli aktivite olmakdir. Bu, bir dizi hareket yapmak, bir dizi deney yapmak, bir dizi eğlence yapmak gibi. Stresi azaltmak için aynı zamanda bir dizi eğlence yapmak da önemlidir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.029
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakmak için en iyi yöntemleri şunlardır:1- Kışın Evin Kullanımı: Evin kendi içinde kışın geçmesi gereken bir yerdir. Bu nedenle evin kendi içinde kışın geçmesi gereken bir yerdir. Bu nedenle evin kendi içinde kışın geçmesi gereken bir yerdir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.378
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, günün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir.\n\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir.\n\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir.\n\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir,\nGünün sonuna gelir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.804
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşü, insanlık tarihinde önemli bir dönüm noktası olmuştur. Bu süreçte, insanlar birbirleriyle bağ kurarak bir araya gelmiş ve bu arada evlilik yapmışlardır. Ancak bu süreçte bazı kedinler, evlilik yapma hakkını koruyamıştır. Kaybolan bir kedinin evine dönüşü, bu kedinin evlilik hakkını koruyucu bir şekilde korumaya çalışmıştır.\n\nBu dönüm noktası, özellikle 19. yüzyılın sonlarına doğru gerçekleşmiştir. Bu dönemde, özellikle İtalya'da yaşayan birçok insan, evlilik hakkını koruyarak bir araya gelmiş ve bu durum, kendi evlilik hakkını koruyucu bir şekilde korumaya çalışmıştır. Bu durum, kendi evlilik hakkını koruyucu bir şekilde korumaya çalışmış kişiler için büyük bir sorun olarak görülür. Ancak bu durum, aynı zamanda kendi evlilik hakkını koruyucu bir şekilde korumaya çalışmış kişiler için de büyük bir ilahi olur.\n\nKaybolan bir kedinin",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.176
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabahı, kütüphaneye gideceğim.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Ağız ve Kanser Sağlığı: Sağlıklı yaşam için en önemlisi ağız sağlığıdır. Ağız sağlığını korumak için genel olarak 3 adet testlerden sonra bir doktorunun önerileri alınmalıdır. Bu testler arasında ağız sağlığı testi, ağız sağlığı testi, ağız sağlığı testi ve ağız sağlığı testi bulunulmalıdır. Ayrıca, ağız sağlığı testi sırasında genel ağız sağlığı testi, ağız sağlığı testi, ağız sağlığı testi ve ağız sağlığı testi bulunulmalıdır.\n\n2. Sağlık Hizmetleri: Sağlık hizmetleri, hem fiziksel hem de psikolojik sağlık hizmetleri içerir. Sağlık hizmetlerinin önemini belirlemek için, bir doktorunun önerileri alınması gerekmektedir. Sağlık hizmetlerinin yanı sıra, sağlık hizmetlerinin yanı sıra, sağlık hizmetlerinin yanı sıra, sağlık hizmetlerinin yanı sıra, sağlık hizmetlerinin yanı sıra, sağlık h",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.248,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul'un Tarihi\n2. İstanbul'un Kültürel Mirası\n3. İstanbul'un Tarih\n4. İstanbul'un Geçmiş\n5. İstanbul'un Kültürel Etkinlikler\n6. İstanbul'un Tarih ve Kültürel Etkinlikler\n7. İstanbul'un Tarih ve Kültürel Etkinlikler\n8. İstanbul'un Tarih ve Kültürel Etkinlikler\n9. İstanbul'un Tarih ve Kültürel Etkinlikler\n10. İstanbul'un Tarih ve Kültürel Etkinlikler\n11. İstanbul'un Tarih ve Kültürel Etkinlikler\n12. İstanbul'un Tarih ve Kültürel Etkinlikler\n13. İstanbul'un Tarih ve Kültürel Etkinlikler\n14. İstanbul'un Tarih ve Kültürel Etkinlikler\n15. İstanbul'un Tarih ve Kültürel Etkinlikler\n16. İstanbul'un Tarih ve Kültürel Etkinlikler\n17. İstanbul'un Tarih ve Kültürel Etk",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.244,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük şehri merkezi olup, tarihi ve kültürel zenginlikleriyle bilinir. Ayrıca tarihi M.Ö 528'de inşa edilen Ayasofya'nın merkezi olması da onun önemli bir parçasıdır.\n\n2. Ankara: Türkiye'nin başkenti olan Ankara, tarihi ve kültürel zenginlikleriyle de bilinir. Bizans İmparatoru I. Justinianus tarafından 537 yılında inşa edilen Anıtkabir, hem yerli hem de yabancı turistler için önemli bir merkezdir.\n\n3. İzmir: Türkiye'nin ikinci büyük şehri olan İzmir, tarihi ve kültürel zenginlikleriyle de bilinir. Antik Yunan dönemine kadar uzanan zenginlikleriyle bilinen İzmir, aynı zamanda Türkiye'nin en popüler liman merkezlerinden biridir.\n\n4. Bursa: Türkiye'nin en büyük kentlerinden biri olan Bursa, tarihi ve kültürel",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.039,
+      "check_passed": false
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe ona 4 elma daha veriyor.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "100 km = 100 x 100 = 10000 km 10000 km / 3 x 60 = 10000 x 2 = 20000 km 20000 km = 20000 x 1000 = 20000000 km 20000000 km = 20000000 x 1000 = 20000000000 km 20000000000 km = 20000000000 x 1000 = 2000000000000 km 2000000000000 km = 2000000000000 x 1000 = 200000000000000 km 200000000000000 km = 2000000000",
+      "finished": false,
+      "detected_lang": "?",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "Sydney, Australia'nın en önemli ve en çok ziyaret edilen şehirlerinden biridir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine, bir ilaç veya ilaç türü, bir kişinin diğer insanlar için hayati riskli bir durumda olmasından dolayı, bu durumların daha az olabileceği için, bu durumların daha az olmaması için kullanılır. Bu ilaç veya ilaç türü, insanın bu durumun daha az olabileceği için, bu durumun daha az olmaması için kullanılır. Bu, insanın bu durumun daha az olabileceği için, bu durumun daha az olmaması için kullanılır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.29
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast expanse,\nA place of endless depth and space.\nIts waves that dance and sway,\nA symphony of sound and sight.\nThe sun's rays that shine upon it,\nThe moon's light that lingers there.\nThe creatures that call it home,\nThe fish that swim and the sea.\nThe ocean, a place of life and death,\nA place of wonder and awe.\nA place where the tide comes and goes,\nA place where the waves crash and crash.\nA place where the sun's rays shine,\nA place where the moon's light shines.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.033
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Start with Basic Grammar: Before moving on to more complex structures, it's essential to learn the basics of grammar. This will help you understand how words are used and how sentences are constructed.\n\n2. Practice with Real Contexts: The best way to learn a new language is to use it in real-life situations. This means speaking, writing, reading, and listening to the language. You can also watch language learning videos or listen to podcasts to improve your listening skills.\n\n3. Use Language Learning Tools: There are many language learning tools available, such as apps, websites, and language exchange platforms. These tools can help you track your progress, set goals, and stay motivated. \n\n4. Join a Language Group: Joining a language group or community can help you connect with others who are also learning the language and can offer support and encouragement. You can also participate in language exchange programs, where you can practice speaking with native speakers. \n\n5. Read and Write: Reading and writing practice is crucial for improving your language skills. You can read books, newspapers, and magazines, and write essays, reports, or short stories. This will help you become more fluent in the language and improve your writing skills. \n\n6. Use Language Apps: Language apps, such",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.005,
+      "check_passed": false
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "If I have 10 apples and give away 4, how many do I have left? 10 - 4 = 6 apples. So I have 6 apples left.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.0
+    }
+  ],
+  "eval_seconds": 87.2
+}

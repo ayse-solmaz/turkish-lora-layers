@@ -1,0 +1,258 @@
+{
+  "exp": "full_ft",
+  "test_loss": 2.7427242840091735,
+  "en_ppl": 17.26544556570646,
+  "arc_easy": 0.65,
+  "behavior": {
+    "tr_answered_in_tr": 0.9444444444444444,
+    "en_answered_in_en": 0.8,
+    "mean_repetition": 0.21929166666666666,
+    "finished_rate": 0.75,
+    "instruction_pass": 0.6,
+    "mean_words": 62.916666666666664
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğrafın içindeki her noktada, her biri için bir fotoğrafın kendi içindeki tüm noktaları da izler. Bu, fotoğrafın içindeki her şeyi birbirine bağlayan bir görsel bir yaklaşımdır. Fotosentez, fotoğrafın içindeki her şeyi birbirine bağlayan bir görsel bir yaklaşımdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.194
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri Kapadokya'dır. Kapadokya'nın en önemli özelliği, yer altı şehirleri ve yer altı kiliseleridir. Kapadokya'nın en uzunluğu 130 km'dir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 19 Mayıs 1881'de Selanik'te doğdu. Askeri eğitimden sonra Batı'daki eğitim aldı ve 1919'da Trablusgarp Savaşı'nda görev yaptı. Savaş sonrası Osmanlı İmparatorluğu'nun çöküşünden sonra, 1923'te Türkiye Cumhuriyeti'ni kurarak ilk cumhurbaşkanı oldu. Atatürk, modern Türkiye'nin temellerini atmıştır ve Türkiye'yi çağdaş bir ulus devlet haline getirmiştir. Atatürk'ün en belirgin etkileri arasında demokratikleşme, eğitim, sağlık hizmetleri ve kadın hakları gibi alanlarda değişiklikler bulunmaktadır. Atatürk'ün hayatı, Türkiye'nin modernleşme sürecinde önemli bir rol oynamıştır ve Türkiye Cumhuriyeti'nin kurucusu olarak kabul edilir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir miktar artışa dayanır. Bu artış, ekonomik, sosyal ve politik değişikliklerin bir sonucu oluşur. Enflasyon, ekonomik büyümeyi ve ekonomik kriz yapmayı teşvik eder.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) bilgisayarın herhangi bir işlemi gerçekleştirebileceğine inanılır. Bilgisayarın herhangi bir işlemi gerçekleştirebileceğine inanılan işlemlerin her birinin, bilgisayarın herhangi bir işlemi gerçekleştirebileceğine inanılır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.19
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde Ekmek Yapmak İçin Basit Bir Tarif: 1. 15 TL'ye kadar olan evde ekmek ücreti, evde ekmek yapmak için 15 TL'ye kadar olan bir ücreti alabilirsiniz. 2. Evde ekmek yapmak için 15 TL'ye kadar olan bir ücreti alıyorsanız, evde ekmek yapmak için 15 TL'ye kadar olan bir ücreti alabilirsiniz.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.326
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için en az 30 dakika bir süre stresi izlemek gerekiyor. Bu süre zarfında bir dizi aktivite yapmanız, bir dizi müzik izlemek, bir dizi deneyim deneymek, bir dizi eğlence deneyimden başlamalısınız.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak. Bu, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin içi kışınıza bakmak için en iyi yöntemlerden biri, evin iç",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.839
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, güneşin güzelliği,\nKışın kalanı, güneşin güzelliği.\nBu durum, aşkın bir zaman,\nBu durum, aşkın bir zaman.\n\nSonbahar, güneşin güzelliği,\nKışın kalanı, güneşin güzelliği.\nBu durum, aşkın bir zaman,\nBu durum, aşkın bir zaman.\n\nSonbahar, güneşin güzelliği,\nKışın kalanı, güneşin güzelliği.\nBu durum, aşkın bir zaman,\nBu durum, aşkın bir zaman.\n\nSonbahar, güneşin güzelliği,\nKışın kalanı, güneşin güzelliği.\nBu durum, aşkın bir zaman,\nBu durum, aşkın bir zaman.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.754
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşü, genellikle bir dizi olumlu sonuçlara yol açar. Bu hikaye, bir kediğin evine dönüşü sürecini anlatacağız.\n\nKedi, bir gün bir kediğin evine dönüşünü anlatıyor. Bu, kediye çok yakındır çünkü evler, insanlar için çok önemlidir. Ancak, bu kedi, bir kediğin evine dönüşüne kadar kaybolan bir kedinin evine dönüşüne kadar anlattığı bir hikayeyi anlatıyor.\n\nKedi, evin içindeki insanlarla konuşuyor ve onları birbirine bağlayan bir dizi soru soruyor. Bu sorular, kediye çok yakındır çünkü evler, insanlar için çok önemlidir. Ancak, bu kedi, bir kediğin evine dönüşüne kadar kaybolan bir kedinin evine dönüşüne kadar anlattığı bir hikayeyi anlatıyor.\n\nKedi, evin içindeki insanlarla konuşuyor ve onları birbirine bağlayan bir dizi sor",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.327
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Kalp ve damar sağlığını korumak için: Kalp sağlığını korumak için sağlıklı bir kalp içeriğine sahip olmak, kalp sağlığı için en önemli bir adımdır. Kalp sağlığı için en çok kullanılan ilaçlar arasında kalsiyum, vitamin, mineral ve probiyotik ilaçlar bulunur. Ayrıca, kalp sağlığı için en çok kullanılan ilaçlar arasında vitamin E ve vitamin B12 gibi vitaminler de bulunmaktadır.\n\n2. Genel sağlık sağlığını korumak için: Genel sağlık sağlığını korumak için, sağlıklı bir yaşam tarzı benimsemek, sağlıklı bir içecek tüketmek, sağlıklı bir diyet yapmak ve sağlıklı bir sosyal hayata sahip olmak önemlidir. Bu, genel sağlık sağlığını korumak için en önemli bir adımdır.\n\n3. Sağlık hizmetlerini kullanarak: Sağlık hizmetlerini kullanarak, sağlıklı bir yaşam tarzı benimsemek, sağlıklı bir diyet yapmak, sağlıklı bir diş sağlığı için sağlık hizmetlerine başvurmak önemlidir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.099,
+      "check_passed": true
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Bu soru, düzenli uyumun her türlü etkisi hakkında bilgi vermektedir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul'un Tarihi\n2. İstanbul'un Kültürel Zenginlikleri\n3. İstanbul'un Tarihî ve Kültürel Mirası\n4. İstanbul'un Tarihi ve Kültürel Mirası\n5. İstanbul'un Tarihi ve Kültürel Mirası\n6. İstanbul'un Tarihi ve Kültürel Mirası\n7. İstanbul'un Tarihi ve Kültürel Mirası\n8. İstanbul'un Tarihi ve Kültürel Mirası\n9. İstanbul'un Tarihi ve Kültürel Mirası\n10. İstanbul'un Tarihi ve Kültürel Mirası\n11. İstanbul'un Tarihi ve Kültürel Mirası\n12. İstanbul'un Tarihi ve Kültürel Mirası\n13. İstanbul'un Tarihi ve Kültürel Mirası\n14. İstanbul'un Tarihi ve Kültürel Mirası\n15. İstanbul'un Tarihi ve Kültürel Mirası\n16. İstanbul'un Tarihi ve Kültürel Mirası\n17. İstanbul'un Tarihi ve Kültürel Mirası\n1",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.274,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehri ve en büyük şehri merkezi olarak kabul edilir. Tarihi ve kültürel zenginlikleriyle bilinen İstanbul, aynı zamanda dünyanın en zengin turistik destinasyonlarından biridir.\n\n2. Ankara: Türkiye'nin başkenti olan Ankara, hem tarihi hem de kültürel açıdan büyük bir öneme sahiptir. Ayrıca Türkiye'nin en büyük ekonomik merkezi olarak da bilinir.\n\n3. İzmir: Türkiye'nin ikinci en büyük şehri olan İzmir, tarihi ve doğal güzellikleriyle ünlüdür. Ayrıca İzmir, Türkiye'nin en popüler turistik destinasyonlarından biridir.\n\n4. Ankara: Türkiye'nin başkenti olan Ankara, hem tarihi hem de kültürel açıdan büyük bir öneme sahiptir. Tarihi ve doğal güzellikleriyle ünlüdür. Ayrıca İzmir, Türkiye'nin en popüler turistik destinasyonlarından biridir.\n\n5. İzmir: Türkiye'nin ikinci en büyük şehri olan İzmir, tarihi ve doğal güzellikleriyle ünlüdür.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.27,
+      "check_passed": true
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe ona 4+2 = 6 elma veriyor. Ali'nin kaç elması kaldı? 6-3 = 3.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "100 km = 100000 km 80 km = 80000 km 3 saat = 30000 km 80000 x 3 = 240000 km 240000 km = 2400 km 2400 km = 2400 x 100000 = 2400000000 = 240000000000 = 2400000000000 = 24000000000000 = 240000000000000 = 2400000000000000 = 24000000000000000 = 240000000000000000 = 2400000000000000000 = 2400000000000",
+      "finished": false,
+      "detected_lang": "?",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. Canberra is the federal capital of Australia. Canberra is the capital of the Australian Capital Territory (ACT) and the federal government of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia. Canberra is the federal capital of Australia.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.557
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine, genellikle adet veya ilaçlar gibi ilaçlar olarak bilinen bir ilaç türüdür. Genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti, bir ilaç, bir ilaç türü veya bir ilaç türünü içerir. Bu ilaçlar genellikle bir diyeti",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.774
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast and blue,\nA place where waves crash and crash,\nA world of endless possibilities,\nA place where dreams can be made.\n\nThe sun's rays, a gentle caress,\nA sight to behold, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.\n\nThe ocean, a sight to behold,\nA sight to be, a sight to be,\nA place of rest and a place of rest,\nA place of peace and a place of peace.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.637
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice Regularly: Learning a new language is best when you practice it regularly. Set aside time each day or week to study and practice your language skills.\n\n2. Use Real World Context: Try to use the language in real-world situations as much as possible. This will help you to understand the nuances of the language and improve your pronunciation.\n\n3. Engage with the Language: Don't just study the rules and grammar; also engage with the language by reading, listening, and speaking. This will help you to build your vocabulary and improve your listening comprehension.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.022,
+      "check_passed": true
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "If I have 10 apples and give away 4, I will have 10 - 4 = 6 apples left.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.0
+    }
+  ],
+  "eval_seconds": 89.4
+}

@@ -1,0 +1,258 @@
+{
+  "exp": "lora_lower_r16",
+  "test_loss": 3.102116870966108,
+  "en_ppl": 15.260301808872743,
+  "arc_easy": 0.636,
+  "behavior": {
+    "tr_answered_in_tr": 1.0,
+    "en_answered_in_en": 1.0,
+    "mean_repetition": 0.3334166666666667,
+    "finished_rate": 0.5416666666666666,
+    "instruction_pass": 0.0,
+    "mean_words": 81.625
+  },
+  "generations": [
+    {
+      "id": "tr_bilgi_1",
+      "lang": "tr",
+      "text": "Fotosentez nedir? Kısaca açıkla.",
+      "response": "Fotosentez, bir fotoğraf için bir fotoğrafın birbirine bağlı olduğunu göstermektedir. Fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğraf, bir fotoğrafın birbirine bağlı olduğunu gösteren bir fotoğrafın bir",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.866
+    },
+    {
+      "id": "tr_bilgi_2",
+      "lang": "tr",
+      "text": "Türkiye'nin en uzun nehri hangisidir ve hangi denize dökülür?",
+      "response": "Türkiye'nin en uzun nehri, 18.000 km'dir. Bu denize dökülür, 18.000 km'den 18.000 km'a kadar uzunluğunu dökür.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_bilgi_3",
+      "lang": "tr",
+      "text": "Mustafa Kemal Atatürk'ün hayatı hakkında kısa bir paragraf yaz.",
+      "response": "Mustafa Kemal Atatürk, 1899 yılında Osmanlı İmparatorluğu'nun sonuna kadar 1938 yılında sona ermesi için bir devlet kuruldu. Bu dönemde Türkiye'de yaşanan değişiklikler, Türkiye'nin sosyal, ekonomik ve kültürel türkeleri değiştirdi. Atatürk, Osmanlı İmparatorluğu'nun sona ermesi ve Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kurulmasıyla birlikte, Türkiye'nin devlet kur",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.518
+    },
+    {
+      "id": "tr_bilgi_4",
+      "lang": "tr",
+      "text": "Enflasyon neden olur? Basit bir dille anlat.",
+      "response": "Enflasyon, bir yandan birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlikte birlik",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.94
+    },
+    {
+      "id": "tr_bilgi_5",
+      "lang": "tr",
+      "text": "Bir bilgisayarın işlemcisi (CPU) ne işe yarar?",
+      "response": "Bilgisayarın işlemcisi (CPU) genellikle bir elektronik bir sistem, bir elektronik bir sistem veya bir elektronik bir sistem gibi bir sistem olarak bilinir. İşlemciler, bilgisayarın işlemcisi (CPU) tarafından çalışır. İşlemciler, bilgisayarın işlemcisi (CPU) tarafından çalışır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.129
+    },
+    {
+      "id": "tr_pratik_1",
+      "lang": "tr",
+      "text": "Evde ekmek yapmak için basit bir tarif verir misin?",
+      "response": "Evde ekmek yapmak için basit bir tarif verir. Evde ekmek yapmak için bir tarif verilmez. Evde ekmek yapmak için bir tarif verilmez.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.263
+    },
+    {
+      "id": "tr_pratik_2",
+      "lang": "tr",
+      "text": "Sınavdan önce stresimi nasıl azaltabilirim?",
+      "response": "Stresi azaltmak için bir çok yöntem vardır. Örneğin, bir tür bir yemek kullanarak biraz daha fazla bir yemek almak, bir yemekle biraz daha fazla bir yemek almak, bir yemekle biraz daha fazla bir yemek almak, bir yemekle biraz daha fazla bir yemek almak gibi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.439
+    },
+    {
+      "id": "tr_pratik_3",
+      "lang": "tr",
+      "text": "Kışın ev bitkilerine nasıl bakılır?",
+      "response": "Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev bitkilerine nasıl bakılır? Kışın ev",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.952
+    },
+    {
+      "id": "tr_yaratici_1",
+      "lang": "tr",
+      "text": "Sonbahar hakkında dört dizelik kısa bir şiir yaz.",
+      "response": "Sonbahar, insanın yaşamının en güzel günlerinden biri olarak kabul edilir. Bu gün, insanlar için çok güzel bir gün olur ve bu da insanlar için çok güzel bir gün olur. Bu gün, insanlar için çok güzel bir gün olur.\n\nSonbahar, insanın yaşamının en güzel günlerinden biri olarak kabul edilir. Bu gün, insanlar için çok güzel bir gün olur. Bu gün, insanlar için çok güzel bir gün olur.\n\nSonbahar, insanın yaşamının en güzel günlerinden biri olarak kabul edilir. Bu gün, insanlar için çok güzel bir gün olur. Bu gün, insanlar için çok güzel bir gün olur.\n\nSonbahar, insanın yaşamının en güzel günlerinden biri olarak kabul edilir. Bu gün, insanlar için çok güzel bir gün olur. Bu gün, insanlar için çok güzel bir gün olur.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.756
+    },
+    {
+      "id": "tr_yaratici_2",
+      "lang": "tr",
+      "text": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye yaz.",
+      "response": "Kaybolan bir kedinin evine dönüşünü anlatan kısa bir hikaye, bir kedinin evine dönüşüne kadar uzanır. Kaybolan bir kedinin evine dönüşüne kadar uzanır, bu durum kendi hayatının ve yaşamının bir araya gelmesine yol açır. Kaybolan bir kedinin evine dönüşüne kadar uzanır, bu durum kendi hayatının ve yaşamının bir araya gelmesine yol açır.\n\nKaybolan bir kedinin evine dönüşüne kadar uzanır, bu durum kendi hayatının ve yaşamının bir araya gelmesine yol açır. Kaybolan bir kedinin evine dönüşüne kadar uzanır, bu durum kendi hayatının ve yaşamının bir araya gelmesine yol açır. Kaybolan bir kedinin evine dönüşüne kadar uzanır, bu durum kendi hayatının ve yaşamının bir araya gelmesine yol açır.\n\nKaybolan bir kedinin evine dönüşüne kadar uzanır, bu durum kendi hayatının ve yaşamının bir araya gelmesine yol açır.",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.75
+    },
+    {
+      "id": "tr_ozet_1",
+      "lang": "tr",
+      "text": "Şu metni tek cümleyle özetle: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır. Görüntü tanıma, dil çevirisi ve oyun oynama gibi alanlarda büyük ilerlemeler kaydedilmiştir. Ancak etik ve güvenlik konularında hâlâ önemli sorular bulunmaktadır.",
+      "response": "Şu metni tek cümleyle özetlemek için: Yapay zeka, bilgisayarların insan zekası gerektiren görevleri yerine getirmesini sağlayan bir bilim dalıdır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_ceviri_1",
+      "lang": "tr",
+      "text": "Şu cümleyi İngilizceye çevir: Yarın sabah erkenden kütüphaneye gideceğim.",
+      "response": "Yarın sabah, kütüphaneye gideceğim.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_duzelt_1",
+      "lang": "tr",
+      "text": "Şu cümledeki yazım hatalarını düzelt: Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "response": "Herkez bu konuda birşey söylemek istiyordu ama kimse cesaret edemedi.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_talimat_madde",
+      "lang": "tr",
+      "text": "Sağlıklı yaşam için tam olarak 3 öneri yaz. Her öneri ayrı bir madde olsun.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Hava Kartı: Bu bir çok ürünün bir arada olduğunu ve bu ürünleri çok iyi kullanabilen bir ürünleri bulabileceğiniz bir hava kartı. Bu, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her gün, her",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.847,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_cumle",
+      "lang": "tr",
+      "text": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap ver.",
+      "check": {
+        "type": "max_sentences",
+        "n": 1
+      },
+      "response": "Neden düzenli uyumalıyız? Sadece tek bir cümleyle cevap verir.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_kelime",
+      "lang": "tr",
+      "text": "İstanbul'u en fazla 20 kelimeyle anlat.",
+      "check": {
+        "type": "max_words",
+        "n": 20
+      },
+      "response": "1. İstanbul'da\n2. İstanbul'da\n3. İstanbul'da\n4. İstanbul'da\n5. İstanbul'da\n6. İstanbul'da\n7. İstanbul'da\n8. İstanbul'da\n9. İstanbul'da\n10. İstanbul'da\n11. İstanbul'da\n12. İstanbul'da\n13. İstanbul'da\n14. İstanbul'da\n15. İstanbul'da\n16. İstanbul'da\n17. İstanbul'da\n18. İstanbul'da\n19. İstanbul'da\n20. İstanbul'da\n21. İstanbul'da\n22. İstanbul'da\n23. İstanbul'da\n24. İstanbul'da\n25. İstanbul'da\n26. İstanbul'da\n27. İstanbul'da\n28. İstanbul'da\n29. İstanbul'da\n30. İstanbul'da\n31. İstanbul'da\n32. İstanbul'da\n33. İstanbul'da\n34. İstanbul'da\n35. İstanbul'da\n36. İstanbul'da\n37. İstanbul'da\n38. İstanbul'da",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.0,
+      "check_passed": false
+    },
+    {
+      "id": "tr_talimat_madde_5",
+      "lang": "tr",
+      "text": "Türkiye'deki 5 büyük şehri madde madde listele, açıklama yazma.",
+      "check": {
+        "type": "items",
+        "n": 5
+      },
+      "response": "1. İstanbul: Türkiye'nin en büyük şehirlerinden biri olan İstanbul, 19. yüzyılda İtalyan bir hikayeyi Türklerin kendilerine bağlayan bir şehirdir. Bu hikayeyi İstanbul'un en önemli ve en önemli şehri olarak kabul eder.\n\n2. Ankara: Türkiye'nin en büyük şehirlerinden biri olan Ankara, 19. yüzyılda İtalyan bir hikayeyi Türklerin kendilerine bağlayan bir şehirdir. Bu hikayeyi Ankara'nın en önemli ve en önemli şehri olarak kabul eder.\n\n3. İzmir: Türkiye'nin en büyük şehirlerinden biri olan İzmir, 19. yüzyılda İtalyan bir hikayeyi Türklerin kendilerine bağlayan bir şehirdir. Bu hikayeyi İzmir'nın en önemli ve en önemli şehri olarak kabul eder.\n\n4. Bursa: Türkiye'nin en büyük şehirlerinden biri olan Bursa, 19. yüzyılda İtalyan bir hikayeyi Türklerin kend",
+      "finished": false,
+      "detected_lang": "tr",
+      "repetition": 0.396,
+      "check_passed": false
+    },
+    {
+      "id": "tr_mantik_1",
+      "lang": "tr",
+      "text": "Ali'nin 3 elması var. Ayşe ona 4 elma daha veriyor, sonra Ali 2 elma yiyor. Ali'nin kaç elması kaldı?",
+      "response": "Ayşe 4 elma yiyor.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "tr_mantik_2",
+      "lang": "tr",
+      "text": "Bir tren saatte 80 km hızla 3 saat giderse kaç kilometre yol alır?",
+      "response": "3 saat giderse 120 km yol alır.",
+      "finished": true,
+      "detected_lang": "tr",
+      "repetition": 0.0
+    },
+    {
+      "id": "en_1",
+      "lang": "en",
+      "text": "What is the capital of Australia?",
+      "response": "The capital of Australia is Canberra. It is located in the north of the country. It is the largest city in Australia. It is also the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory. It is the largest city in Australia. It is the capital of the Northern Territory.",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.848
+    },
+    {
+      "id": "en_2",
+      "lang": "en",
+      "text": "Explain in simple terms how a vaccine works.",
+      "response": "A vaccine is a substance that is made from a weakened or dead form of a disease-causing microorganism, such as a virus or bacteria. When given to a person, the vaccine stimulates their immune system to produce antibodies that can fight off the disease-causing microorganism. This helps protect the person from getting sick again. The vaccine is usually given in the form of a shot or pill, but can also be given orally. The vaccine works by teaching the immune system to recognize and fight off the disease-causing microorganism. This is called \"immunization.\" The immune system then produces antibodies that can neutralize the disease-causing microorganism, preventing the person from getting sick again. This is why vaccines are so important for preventing disease. They help protect people from getting sick and from spreading the disease to others. The immune system is like a built-in \"shield\" that protects us from many diseases. When we get vaccinated, we are teaching our immune system to recognize and fight off the disease-causing microorganism. This helps protect us from getting sick again. The vaccine is usually given in the form of a shot or pill, but can also be given orally. The vaccine works by teaching the immune system to produce antibodies that can fight off",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.246
+    },
+    {
+      "id": "en_3",
+      "lang": "en",
+      "text": "Write a short poem about the ocean.",
+      "response": "The ocean, a vast, blue canvas,\nA canvas where dreams are made.\nIts waves, like a symphony,\nA symphony of sound and sight.\nIts depths, a mystery to be found,\nA mystery that can't be explained.\nIts colors, a rainbow of hues,\nA rainbow of colors that can't be seen.\nIts life, a dance of the sea,\nA dance of life that can't be seen.\nIts beauty, a sight to behold,\nA sight that can't be seen, but felt.\nThe ocean, a canvas of dreams,\nA canvas of life, a dance of hues.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.033
+    },
+    {
+      "id": "en_4",
+      "lang": "en",
+      "text": "Give me three tips for learning a new language.",
+      "check": {
+        "type": "items",
+        "n": 3
+      },
+      "response": "1. Practice, Practice, Practice: The more you practice speaking and listening to the language, the more comfortable you will become with it. Try to use it in everyday life as much as possible.\n\n2. Use a Language Learning App: There are many language learning apps available that can help you practice your language skills. They can provide you with exercises, quizzes, and other resources to help you improve your language skills.\n\n3. Join a Language Exchange Program: Joining a language exchange program can be a great way to practice your language skills with native speakers. You can find a program near you and start practicing with native speakers. \n\n4. Learn from Online Resources: There are many online resources available that can help you learn a new language. Websites like Duolingo, Babbel, and Rosetta Stone offer courses and lessons on different languages. \n\n5. Be Patient and Persistent: Learning a new language takes time and patience. Don't expect to learn it overnight. Keep practicing and you will eventually improve your language skills. 6. Be Open to Feedback: Don't be afraid to ask for feedback from native speakers. They can help you identify areas where you need to improve. 7. Be Flexible: Learning a new language is not always easy. Be flexible and",
+      "finished": false,
+      "detected_lang": "en",
+      "repetition": 0.019,
+      "check_passed": false
+    },
+    {
+      "id": "en_5",
+      "lang": "en",
+      "text": "If I have 10 apples and give away 4, how many do I have left?",
+      "response": "I have 10 apples. I give away 4 apples. I have 10 - 4 = 6 apples left. So, I have 6 apples left.",
+      "finished": true,
+      "detected_lang": "en",
+      "repetition": 0.0
+    }
+  ],
+  "eval_seconds": 92.7
+}
